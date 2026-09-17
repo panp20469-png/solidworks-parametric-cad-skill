@@ -1,0 +1,7 @@
+interface:
+  display_name: "SolidWorks Parametric CAD"
+  short_description: "SolidWorks CAD from drawings with gated automation."
+  default_prompt: "Use $solidworks-parametric-cad for SolidWorks CAD automation. Before execution, check the SLDWORKS process and sw_get_status, reuse the connected instance, and disallow silent auto-launch. For drawing inputs, run the drawing gate, compile one machine-readable drawing contract, generate from that contract, then independently verify feature positions, topology, and proving views before claiming drawing match."
+
+policy:
+  allow_implicit_invocation: true
