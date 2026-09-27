@@ -1,0 +1,31 @@
+{
+  "case": "drawing109",
+  "source": "sanitized summary of original local execution logs",
+  "status": "BASIC_CHECK_DONE",
+  "geometry": {
+    "errors": 0,
+    "status": "OK"
+  },
+  "rebuild": {
+    "rebuilt": true
+  },
+  "body_count": 1,
+  "bounding_box_m": [
+    -0.075,
+    -0.075,
+    -0.06,
+    0.075,
+    0.045000000000000005,
+    0.028000000000000008
+  ],
+  "fillet": [
+    {
+      "name": "圆角1",
+      "radius_mm": 6.0
+    }
+  ],
+  "drawing_match": "AWAITING_USER_REVIEW",
+  "from_zero_replay": "NOT_RUN",
+  "public_copy_runtime": "NOT_RUN",
+  "video": "post-build model showcase; not original modeling process"
+}

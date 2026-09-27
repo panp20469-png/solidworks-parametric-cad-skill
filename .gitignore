@@ -12,3 +12,6 @@ output/
 *.log
 !docs/demo/*.mp4
 !docs/demo/*.SLDPRT
+
+!docs/demo/drawing109/*.mp4
+!docs/demo/drawing109/*.SLDPRT
