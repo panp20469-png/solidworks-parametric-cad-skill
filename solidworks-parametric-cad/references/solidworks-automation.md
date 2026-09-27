@@ -162,7 +162,13 @@ Use the first matching symptom:
 - Assembly opens but contains zero components: reopen saved parts with legacy `OpenDoc(path, 1)` and insert them with `AddComponent4`; then verify `GetComponents(False)`.
 - Mate creation fails with ByRef/type mismatch: select the exact faces/axes with `SelectByID2` and use legacy `AssemblyDoc.AddMate` before trying newer mate APIs.
 
-After a targeted retry fails, stop further speculative model changes and preserve the last good checkpoint. Read-only diagnosis may continue within the authorized task: inspect the failing entities, parameters, and measured outputs. Resume a minimal local repair only when new evidence identifies a concrete cause and a verifiable correction. If the same cause recurs without new evidence, or resolution requires missing user intent, stop and report the failing feature group, API call, and evidence; do not repeat blind retries.
+### Bounded Autonomous Recovery
+
+- When the user has authorized complete modeling, handle recoverable execution failures within the same task: pause downstream feature creation, preserve the last good checkpoint, inspect the failure, make an evidence-backed local correction, and resume from the failed group. Do not ask the user merely to say "continue" when no new information or authorization is needed.
+- Allow at most three autonomous repair attempts for the same unresolved issue. The original modeling failure is not a repair attempt; each corrective change followed by execution or validation counts as one attempt. Read-only inspection does not count. Keep the count across script restarts and changes in error wording for that issue; do not reset it to evade the limit.
+- Each attempt must state the evidence, proposed correction, and verification result in the task log. After two failed repair attempts, make a third only if new evidence supports a materially different, testable correction. Otherwise stop after the second. After a third failed attempt, stop modifying the model and ask the user for guidance; do not start a fourth autonomous attempt.
+- Stop earlier when critical drawing intent is missing, the repair exceeds authorized scope or permissions, or no evidence-backed correction is available. Preserve the checkpoint and report the failing feature/API, expected versus actual result, attempted repairs and outcomes, and the specific information or decision needed from the user. Distinguish an implementation failure from an unresolved drawing question; do not imply the drawing is wrong without evidence.
+- After a repair succeeds, incorporate it into the normal executable entrypoint, verify the affected feature, and continue the remaining authorized modeling and final checks. Report successful recovery separately from a clean from-zero replay; do not claim first-run reproducibility unless it was actually tested.
 
 ## SolidWorks Feature Names and VBScript Encoding
 
