@@ -142,6 +142,13 @@ For this SolidWorks 2024 SP0.1 installation, do not treat `FeatureExtrusion3(...
 
 SolidWorks 2D sketch creation calls use the active sketch plane's local coordinate system. For sketches on an inclined face or datum plane, derive coordinates with the sketch transform or construct geometry directly from that plane's local axes. Do not pass world XYZ values directly into `CreateCircleByRadius`, `CreateLine`, or similar face-sketch calls unless the conversion has been proven. A valid API call can otherwise create detached or visibly floating geometry.
 
+## Local Fillet Edge Selection
+
+- Select a local fillet boundary by its geometric role: owning region, datum-relative position, adjacent face directions, concave/convex relationship, and connected edge-chain coverage. Do not equate the number of drawing locations with the number of API edges unless that topology has been measured.
+- If candidate count differs from expectation, record endpoints, lengths, adjacent face geometry and orientation before changing the selection. Determine whether candidates are split segments of the intended boundary or unrelated edges; never accept every candidate merely to bypass a count check.
+- Merged coplanar faces can span several regions. A shared coordinate or an adjacent face bounding box alone may admit unrelated edges. Verify the intended pair of faces and the boundary's extent/continuity; retain a count assertion only when justified by the measured topology.
+- After the local fillet, check the returned feature/radius, rebuild, body count, and affected region. Keep drawing-specific coordinates and counts in the case contract or script, not in the general skill.
+
 ## Failure Triage
 
 Use the first matching symptom:
@@ -155,7 +162,7 @@ Use the first matching symptom:
 - Assembly opens but contains zero components: reopen saved parts with legacy `OpenDoc(path, 1)` and insert them with `AddComponent4`; then verify `GetComponents(False)`.
 - Mate creation fails with ByRef/type mismatch: select the exact faces/axes with `SelectByID2` and use legacy `AssemblyDoc.AddMate` before trying newer mate APIs.
 
-After the first targeted retry for the same symptom, stop and report the failing feature group, API call, and log evidence. Do not generate a chain of speculative probe scripts.
+After a targeted retry fails, stop further speculative model changes and preserve the last good checkpoint. Read-only diagnosis may continue within the authorized task: inspect the failing entities, parameters, and measured outputs. Resume a minimal local repair only when new evidence identifies a concrete cause and a verifiable correction. If the same cause recurs without new evidence, or resolution requires missing user intent, stop and report the failing feature group, API call, and evidence; do not repeat blind retries.
 
 ## SolidWorks Feature Names and VBScript Encoding
 
