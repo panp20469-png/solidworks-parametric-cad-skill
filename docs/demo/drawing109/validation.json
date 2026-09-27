@@ -1,6 +1,5 @@
 {
   "case": "drawing109",
-  "source": "sanitized summary of original local execution logs",
   "status": "BASIC_CHECK_DONE",
   "geometry": {
     "errors": 0,
@@ -10,14 +9,8 @@
     "rebuilt": true
   },
   "body_count": 1,
-  "bounding_box_m": [
-    -0.075,
-    -0.075,
-    -0.06,
-    0.075,
-    0.045000000000000005,
-    0.028000000000000008
-  ],
+  "feature_groups": 12,
+  "elapsed_seconds": 110.69,
   "fillet": [
     {
       "name": "圆角1",
@@ -25,7 +18,8 @@
     }
   ],
   "drawing_match": "AWAITING_USER_REVIEW",
-  "from_zero_replay": "NOT_RUN",
-  "public_copy_runtime": "NOT_RUN",
-  "video": "post-build model showcase; not original modeling process"
+  "from_zero_replay": "PASS",
+  "public_copy_runtime": "PASS on original workstation; no cross-machine verification",
+  "video": "continuous from-blank automated build, 2x playback",
+  "model_sha256": "b984ff75dbcedf53de8728d88c589c5d6c134c6c533962376ec03286a61c9d8a"
 }

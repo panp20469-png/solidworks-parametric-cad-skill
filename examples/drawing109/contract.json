@@ -5,7 +5,7 @@
   "gate": "CONFIRMED",
   "permission_to_generate_code": "yes",
   "ledger": "gate.md",
-  "source": "User-provided drawing 109; original temporary image unavailable in publication workspace.",
+  "source": "../../docs/demo/drawing109/source-drawing.jpg",
   "unresolved": [],
   "frame": {
     "origin": "bore axis at plate underside",

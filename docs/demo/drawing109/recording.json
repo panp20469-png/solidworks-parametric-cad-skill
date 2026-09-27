@@ -1,0 +1,15 @@
+{
+  "error": null,
+  "recording_error": null,
+  "frames": 1127,
+  "fps": 10,
+  "encoding_exit_code": 0,
+  "wall_seconds": 113.97,
+  "entry_sha256": "ecaff6dce6c46203420a7b238d3c7dd8ea1d7d0ee1917f7f8bc542f6c229109a",
+  "capture": "Continuous capture of SolidWorks window; wrapper adds view refresh and stage pauses only.",
+  "playback_speed": 2,
+  "video_duration_seconds_approx": 56.35,
+  "decode_check": "PASS",
+  "preview_check": "start, middle, end frames inspected",
+  "video_sha256": "6f467fb02442138d66a3e820fabca7f80f907e6f1af101c44bb6c2ab1e1e846f"
+}

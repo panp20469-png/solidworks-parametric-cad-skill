@@ -1,0 +1,147 @@
+{
+  "contract_sha256": "6f66fb60508afd9e0cdd482b30a5808a2b367d953e4b0bc498a5f5d5877d175e",
+  "consumed": [
+    "D01",
+    "D02",
+    "D03",
+    "D04",
+    "D05",
+    "D06",
+    "D07",
+    "D08",
+    "D09",
+    "D10",
+    "D11",
+    "D12",
+    "D13",
+    "D14",
+    "D15",
+    "D16",
+    "D17",
+    "D18",
+    "D19",
+    "D20",
+    "D21",
+    "D22",
+    "D23",
+    "D24",
+    "D25",
+    "D26",
+    "D27",
+    "D28",
+    "D29",
+    "D30",
+    "D31",
+    "D32",
+    "D33",
+    "D34"
+  ],
+  "groups": [
+    {
+      "name": "01",
+      "result": "凸台-拉伸1",
+      "bodies": 1
+    },
+    {
+      "name": "02",
+      "result": "凸台-拉伸2",
+      "bodies": 1
+    },
+    {
+      "name": "03",
+      "result": "凸台-拉伸3",
+      "bodies": 1
+    },
+    {
+      "name": "04",
+      "result": "凸台-拉伸4",
+      "bodies": 1
+    },
+    {
+      "name": "05",
+      "result": "凸台-拉伸5",
+      "bodies": 1
+    },
+    {
+      "name": "06",
+      "result": "凸台-拉伸6",
+      "bodies": 1
+    },
+    {
+      "name": "07",
+      "result": "凸台-拉伸7",
+      "bodies": 1
+    },
+    {
+      "name": "08",
+      "result": "切除-拉伸1",
+      "bodies": 1
+    },
+    {
+      "name": "09",
+      "result": "切除-拉伸2",
+      "bodies": 1
+    },
+    {
+      "name": "10",
+      "result": "切除-拉伸3",
+      "bodies": 1
+    },
+    {
+      "name": "11",
+      "result": "切除-拉伸4",
+      "bodies": 1
+    },
+    {
+      "name": "12",
+      "result": "{'feature': '圆角1', 'radius_mm': 6}",
+      "bodies": 1
+    }
+  ],
+  "status": "BASIC_CHECK_DONE",
+  "root_edges": [
+    [
+      [
+        -34.999999999999964,
+        0.0,
+        28.0
+      ],
+      [
+        -35.0,
+        0.0,
+        -38.0
+      ]
+    ],
+    [
+      [
+        35.0,
+        0.0,
+        -38.0
+      ],
+      [
+        35.0,
+        0.0,
+        28.0
+      ]
+    ]
+  ],
+  "geometry": {
+    "errors": 0,
+    "status": "OK"
+  },
+  "rebuild": {
+    "rebuilt": true
+  },
+  "body_count": 1,
+  "bounding_box": [
+    -0.075,
+    -0.075,
+    -0.06,
+    0.075,
+    0.045000000000000005,
+    0.028000000000000008
+  ],
+  "drawing_match": "AWAITING_USER_REVIEW",
+  "from_zero_replay": "PASS",
+  "elapsed_seconds": 110.69
+}

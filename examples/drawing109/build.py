@@ -1,5 +1,5 @@
 """按读图合同建模；沿用已验证的二维面坐标转换和原生特征封装。"""
-import sys, json, math, hashlib, traceback
+import sys, json, math, hashlib, traceback, time
 from pathlib import Path
 HERE=Path(__file__).resolve().parent
 OUT=HERE/'output'
@@ -71,8 +71,10 @@ ct=vadd(cc,scale(n,-sider)); cs=(cc[0],0)
 side=[line((front,0),cs),arc(cc,sider,90,angle(sub(ct,cc))),line(ct,tb),line(tb,tf),line(tf,(front,0))]
 
 OUT.mkdir(exist_ok=True)
-model=OUT/'drawing109.SLDPRT'; statepath=OUT/'state.json'; logpath=OUT/'build_log.json'
+model=OUT/'drawing109_generated.SLDPRT'; statepath=OUT/'state.json'; logpath=OUT/'build_log.json'
 state=json.loads(statepath.read_text('utf-8')) if statepath.exists() else {'groups':[]}
+fresh_run=not state['groups'] and not state.get('pending_sketch') and not model.exists()
+started=time.perf_counter()
 log={'contract_sha256':hashlib.sha256((HERE/'contract.json').read_bytes()).hexdigest(),'consumed':sorted(used),'groups':[],'status':'RUNNING'}
 sw=b.TargetClient()
 
@@ -162,7 +164,11 @@ try:
     doc=sw._active_doc(); log['body_count']=len(doc.GetBodies2(0,False)); log['bounding_box']=list(doc.GetPartBox(True))
     _get(doc.ModelViewManager,'RemoveSectionView'); doc.ShowNamedView2('',7); _get(doc,'ViewZoomtofit2'); _get(doc,'GraphicsRedraw2')
     doc.SaveBMP(str(OUT/'drawing109.bmp'),1400,1000)
-    log['status']='BASIC_CHECK_DONE'; log['drawing_match']='AWAITING_USER_REVIEW'; log['from_zero_replay']='NOT_RUN'
+    if log['geometry'].get('errors')!=0 or log['body_count']!=1 or not log['rebuild'].get('rebuilt'):
+        raise RuntimeError('Final basic checks failed')
+    log['status']='BASIC_CHECK_DONE'; log['drawing_match']='AWAITING_USER_REVIEW'
+    log['from_zero_replay']='PASS' if fresh_run and len(log['groups'])==12 else 'NOT_RUN'
+    log['elapsed_seconds']=round(time.perf_counter()-started,2)
     persist(); print(json.dumps({'status':log['status'],'geometry':log['geometry'],'model':str(model)}),flush=True)
 except Exception as exc:
     log['status']='FAILED'; log['error']=str(exc); log['traceback']=traceback.format_exc()

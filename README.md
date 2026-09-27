@@ -2,7 +2,7 @@
 
 面向工程图的 SolidWorks 自动建模实验项目：包括 agent skill、读图与位置关系规则，以及弯头、109 双耳支架两个不同零件的案例资料。
 
-这是公开发布的实验版。弯头案例已记录两次从空白零件到保存的完整执行；109 支架经局部修复完成建模并通过基础检查，但尚未验证修正后脚本从零运行。这两个案例不构成任意工程图自动转换或完整图纸自动验收的证明。
+这是公开发布的实验版。弯头案例已记录两次从空白零件到保存的完整执行；109 支架在修复后已使用公开案例脚本完成一次从空白零件到保存的完整自动运行，12 组特征全部通过，并提供过程录像。这两个案例不构成任意工程图自动转换或完整图纸自动验收的证明。
 
 ## 作者与贡献
 
@@ -13,13 +13,17 @@
 | 案例 | 模型与视频 | 验证层级 |
 | --- | --- | --- |
 | 弯头 | 下方输入图、过程录像及原生模型 | 两次从零运行，基础检查通过，完整图纸验收待确认 |
-| 109 双耳支架 | [案例说明](docs/drawing109.md)、[模型](docs/demo/drawing109/drawing109.SLDPRT)、[展示视频](docs/demo/drawing109/model-showcase.mp4) | 局部修复后基础检查通过；尚未从零重放 |
+| 109 双耳支架 | [案例说明](docs/drawing109.md)、[模型](docs/demo/drawing109/drawing109.SLDPRT)、[自动建模视频](docs/demo/drawing109/automated-build-2x.mp4) | 一次从零运行，12 组特征通过；完整图纸验收待确认 |
 
 ### 第二个案例：109 双耳支架
 
 ![109 支架实际 SolidWorks 模型](docs/demo/drawing109/model.jpg)
 
-提供 [建模脚本和尺寸记录](examples/drawing109/)、[验证摘要](docs/demo/drawing109/validation.json)。视频为建模完成后从实际 SolidWorks 模型采集的视图展示，不是首次建模过程录像。输入图的原始临时文件已失效，待维护者补回；当前不以模型截图代替输入图。
+[观看或下载自动建模全过程录像（2 倍速，约 56 秒）](docs/demo/drawing109/automated-build-2x.mp4)：从新建空白零件开始，实际执行全部 12 组特征、R6 圆角和保存；录制的是修正后脚本的一次完整运行，不是模型旋转动画。运行约 110.69 秒，完整录制约 114 秒。
+
+![109 支架输入工程图](docs/demo/drawing109/source-drawing.jpg)
+
+提供 [建模脚本和尺寸记录](examples/drawing109/)、[运行日志](docs/demo/drawing109/replay-log.json)、[验证摘要](docs/demo/drawing109/validation.json)。输入图来自维护者提供的 studycadcam 编号 109 学习图，不属于本项目原创，不纳入 MIT 许可。
 
 ### 第一个案例：弯头
 
