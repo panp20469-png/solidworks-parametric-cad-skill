@@ -1,5 +1,7 @@
 # SolidWorks Parametric CAD
 
+当前版本：**v1.1.0** · [更新记录](CHANGELOG.md) · [版本发布](https://github.com/panp20469-png/solidworks-parametric-cad-skill/releases)
+
 面向工程图的 SolidWorks 自动建模实验项目：包括 agent skill、读图与位置关系规则，以及弯头、109 双耳支架两个不同零件的案例资料。
 
 这是公开发布的实验版。弯头案例已记录两次从空白零件到保存的完整执行；109 支架在修复后已使用公开案例脚本完成一次从空白零件到保存的完整自动运行，12 组特征全部通过，并提供过程录像。这两个案例不构成任意工程图自动转换或完整图纸自动验收的证明。

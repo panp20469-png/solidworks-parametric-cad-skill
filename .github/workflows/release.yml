@@ -1,0 +1,54 @@
+name: Publish version release
+on:
+  push:
+    branches: [main]
+    paths: [VERSION]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publish-version-release
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Publish the version recorded in this commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import base64, json, os, re, urllib.request, urllib.error
+          repo = os.environ['GITHUB_REPOSITORY']
+          sha = os.environ['GITHUB_SHA']
+          api = 'https://api.github.com/repos/' + repo
+          def request(path, data=None):
+              body = None if data is None else json.dumps(data).encode()
+              req = urllib.request.Request(api + path, data=body, headers={
+                  'Authorization': 'Bearer ' + os.environ['GH_TOKEN'],
+                  'Accept': 'application/vnd.github+json',
+                  'Content-Type': 'application/json',
+                  'User-Agent': 'project-release-workflow'})
+              with urllib.request.urlopen(req, timeout=30) as response:
+                  return json.load(response)
+          def text_file(path):
+              result = request('/contents/' + path + '?ref=' + sha)
+              return base64.b64decode(result['content']).decode('utf-8')
+          version = text_file('VERSION').strip()
+          if not re.fullmatch(r'\d+\.\d+\.\d+', version):
+              raise ValueError('VERSION must contain a numeric semantic version')
+          tag = 'v' + version
+          notes = text_file('docs/releases/' + tag + '.md')
+          try:
+              release = request('/releases/tags/' + tag)
+              print('Release already exists; leaving it unchanged:', release['html_url'])
+          except urllib.error.HTTPError as error:
+              if error.code != 404:
+                  raise
+              release = request('/releases', {'tag_name': tag, 'target_commitish': sha,
+                  'name': tag + ' - SolidWorks Parametric CAD', 'body': notes,
+                  'draft': False, 'prerelease': False})
+              print('Published:', release['html_url'])
+          PY

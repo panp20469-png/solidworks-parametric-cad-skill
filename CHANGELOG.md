@@ -1,0 +1,15 @@
+# 更新记录
+
+## v1.1.0
+
+新增 109 双耳支架案例，使公开资料覆盖弯头和支架两个不同零件。支架公开入口已从空白零件完整运行一次：12 组特征通过，重建成功、单实体、几何错误 0，R6 实测为 6.0 mm。提供原图、原生模型、连续自动建模录像、尺寸合同和运行记录。
+
+- 修复支架圆角选边：通过相邻面与边界覆盖范围区分根部和后槽口，不再未经验证就写死候选边数量。
+- 明确同一任务内的自主修复流程：同一问题最多 3 次修复；第二次失败后无新证据则停止；成功后写回正式入口并继续建模。
+- 在支架入口中修正保存后名称检查与旧封装的双向对称拉伸枚举值。
+- 更换为仅保留图纸内容的输入图片，保留原来源标识。
+- 增加版本文件和自动发布工作流，版本变化可对应到实际提交。
+
+证据：[案例与视频](docs/drawing109.md)、[重放日志](docs/demo/drawing109/replay-log.json)、[选边规则提交](https://github.com/panp20469-png/solidworks-parametric-cad-skill/commit/b1d47022b2b424fa73fa83d3b0f469fcd387f290)、[自主恢复规则提交](https://github.com/panp20469-png/solidworks-parametric-cad-skill/commit/caf7665c8a93fce45fe12ab14ca21302c03722e9)、[自动重放与录像提交](https://github.com/panp20469-png/solidworks-parametric-cad-skill/commit/397e9284178f3a14f4acf68f676becbea0fbff82)。
+
+本项目此前未建立正式版本标签，不补造早期 Release 历史。上述验证仅适用于已记录案例；完整尺寸与剖面验收仍待人工确认，跨机器、任意图纸和参数变化的适用性尚未证明。
