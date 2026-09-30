@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-30",
+  "model_sha256": "b984ff75dbcedf53de8728d88c589c5d6c134c6c533962376ec03286a61c9d8a",
+  "views": [
+    {
+      "view": "front_section",
+      "sha256": "4cb23f4abe54bfd91e985c1d020b4605ec9ede348ff3329fa7d09e11c5649010",
+      "status": "PASS",
+      "reviewer": "AI agent visual comparison",
+      "note": "Z=0 正视剖切：竖孔贯通底板；两腹板实心，内根圆角连续；耳台孔贯穿且双耳中间为空。"
+    },
+    {
+      "view": "top_section",
+      "sha256": "547fb146127d7f815ebe5cc000709e855cd714618537bb3af3227da95e2c5634",
+      "status": "PASS",
+      "reviewer": "AI agent visual comparison",
+      "note": "Y=23 俯视剖切：两后耳孔处于剖切面，后槽与弯壁相连，中央孔为空。原图为局部剖切组合表达，凸台外圆另由未剖切俯视图核对。"
+    },
+    {
+      "view": "front",
+      "sha256": "57b6ff96dd67a21150548ae28ee9603c27da83851084ab3c82df50868e471d12",
+      "status": "PASS",
+      "reviewer": "AI agent visual comparison",
+      "note": "正视：左右对称，后耳孔同高，凸台高于后壁，双耳下伸并分离。"
+    },
+    {
+      "view": "top",
+      "sha256": "205fd0ff5cac6999c7f01324c0061cf0f65c7ea75999a96d1b92b164afd604d2",
+      "status": "PASS",
+      "reviewer": "AI agent visual comparison",
+      "note": "俯视：后槽、弯壁、翼板肩部与前板轮廓一致；中心凸台及孔同心。"
+    },
+    {
+      "view": "right",
+      "sha256": "8206bd2649a987ff2254dabf7b843f817bdabe52b6839d9fca88b192720d4922",
+      "status": "PASS",
+      "reviewer": "AI agent visual comparison",
+      "note": "右视：凸台及后耳高度阶差、前斜边、后侧 R25 过渡、耳圆及耳孔与图纸一致。"
+    },
+    {
+      "view": "isometric",
+      "sha256": "90f336fa7468fbe42e4b1b72d4749a9948e007859c96f4fe17c0f14db35f8fa1",
+      "status": "PASS",
+      "reviewer": "AI agent visual comparison",
+      "note": "等轴测：底板、后壁、中心凸台和双耳连成一体，三组孔方向正确，与图纸立体示意一致。"
+    }
+  ],
+  "display_recovery": "RemoveSectionView returned false and left the section active. Reopened only the read-only inspection document without saving, then recaptured ordinary views.",
+  "scope": "AI 对固定案例进行图像对照；不是通用像素匹配算法，也不是用户人工验收。"
+}

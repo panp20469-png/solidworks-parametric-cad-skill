@@ -17,9 +17,13 @@
       "radius_mm": 6.0
     }
   ],
-  "drawing_match": "AWAITING_USER_REVIEW",
+  "drawing_match": "DRAWING_MATCH_PASS",
   "from_zero_replay": "PASS",
   "public_copy_runtime": "PASS on original workstation; no cross-machine verification",
   "video": "continuous from-blank automated build, 2x playback",
-  "model_sha256": "b984ff75dbcedf53de8728d88c589c5d6c134c6c533962376ec03286a61c9d8a"
+  "model_sha256": "b984ff75dbcedf53de8728d88c589c5d6c134c6c533962376ec03286a61c9d8a",
+  "drawing_match_date": "2026-09-30",
+  "drawing_match_report": "full-validation/report.md",
+  "drawing_match_method": "Independent B-rep measurements and AI review of six SolidWorks views",
+  "drawing_match_check_count": 50
 }

@@ -1,6 +1,6 @@
 # 案例二：109 双耳支架
 
-这是与弯头不同的第二个工程图建模案例。模型已生成并保存；基础检查通过，完整图纸符合性仍待人工验收。
+这是与弯头不同的第二个工程图建模案例。模型已生成并保存；基础检查通过，2026-09-30 补充完成实体测量及 AI 视图对照，图纸一致性验收为 `DRAWING_MATCH_PASS`。
 
 ![实际模型](demo/drawing109/model.jpg)
 
@@ -11,6 +11,7 @@
 - [完整运行日志](demo/drawing109/replay-log.json)、[录制信息](demo/drawing109/recording.json)
 - [建模入口](../examples/drawing109/build.py)、[尺寸合同](../examples/drawing109/contract.json)、[读图记录](../examples/drawing109/gate.md)
 - [基础验证摘要](demo/drawing109/validation.json)
+- [完整图纸验收报告、50 项测量和六个视图](demo/drawing109/full-validation/report.md)、[核验脚本](../examples/drawing109/validation/)
 
 ## 输入图纸
 
@@ -29,7 +30,7 @@
 - 实体数：1；重建：通过；几何错误：0。
 - 圆角特征实际读回半径：6.0 mm。
 - 本次为 Python/COM 建模，不是 MCP 全链路验证。
-- `AWAITING_USER_REVIEW`：完整尺寸与剖面对照尚未自动验收。
+- `DRAWING_MATCH_PASS`：对原有模型独立读取实体几何，34 项尺寸及 16 项关系/拓扑检查通过，六个 SW 视图经 AI 对照原图通过。数值阈值 0.001 mm，只用于核验名义几何，不代表制造公差。模型文件未修改。
 - 修复已纳入入口；修正后公开案例脚本完整从零重放 `PASS`，12 组特征一次运行全部通过，耗时 110.69 秒。
 - 公开副本已在原工作站实际运行；录制包装器仅增加窗口捕获、视图刷新及阶段短暂停顿，不替换几何算法。尚未在另一台电脑验证。
 

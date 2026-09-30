@@ -1,0 +1,178 @@
+[
+  {
+    "spec": {
+      "name": "front_section",
+      "view": "front",
+      "plane": "Front Plane",
+      "offset": 0
+    },
+    "section": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"section_view_active\": true,\n  \"plane\": \"\\u524d\\u89c6\\u57fa\\u51c6\\u9762\",\n  \"offset_mm\": 0.0,\n  \"graphics_only\": true\n}"
+        }
+      ],
+      "structuredContent": {
+        "result": "{\n  \"section_view_active\": true,\n  \"plane\": \"\\u524d\\u89c6\\u57fa\\u51c6\\u9762\",\n  \"offset_mm\": 0.0,\n  \"graphics_only\": true\n}"
+      },
+      "isError": false
+    },
+    "orientation": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"view\": \"front\",\n  \"standard_view_id\": 1,\n  \"activated\": true,\n  \"orientation_verified\": true,\n  \"attempts\": 1,\n  \"rotation_matrix\": [\n    1.0,\n    0.0,\n    0.0,\n    0.0,\n    1.0,\n    0.0,\n    0.0,\n    0.0,\n    1.0\n  ]\n}"
+        }
+      ],
+      "structuredContent": {
+        "result": "{\n  \"view\": \"front\",\n  \"standard_view_id\": 1,\n  \"activated\": true,\n  \"orientation_verified\": true,\n  \"attempts\": 1,\n  \"rotation_matrix\": [\n    1.0,\n    0.0,\n    0.0,\n    0.0,\n    1.0,\n    0.0,\n    0.0,\n    0.0,\n    1.0\n  ]\n}"
+      },
+      "isError": false
+    },
+    "capture": {
+      "path": "front_section.png",
+      "source_capture_sha256": "53a6a835f0c3d684280fcd11dd6f0d8e7c68bf1e5d4359eb3fabe6ad100a3019",
+      "sha256": "4cb23f4abe54bfd91e985c1d020b4605ec9ede348ff3329fa7d09e11c5649010",
+      "lossless_pixel_equal": true
+    }
+  },
+  {
+    "spec": {
+      "name": "top_section",
+      "view": "top",
+      "plane": "Top Plane",
+      "offset": 23
+    },
+    "section": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"section_view_active\": true,\n  \"plane\": \"\\u4e0a\\u89c6\\u57fa\\u51c6\\u9762\",\n  \"offset_mm\": 23.0,\n  \"graphics_only\": true\n}"
+        }
+      ],
+      "structuredContent": {
+        "result": "{\n  \"section_view_active\": true,\n  \"plane\": \"\\u4e0a\\u89c6\\u57fa\\u51c6\\u9762\",\n  \"offset_mm\": 23.0,\n  \"graphics_only\": true\n}"
+      },
+      "isError": false
+    },
+    "orientation": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"view\": \"top\",\n  \"standard_view_id\": 5,\n  \"activated\": true,\n  \"orientation_verified\": true,\n  \"attempts\": 1,\n  \"rotation_matrix\": [\n    1.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    1.0,\n    -0.0,\n    -1.0,\n    -0.0\n  ]\n}"
+        }
+      ],
+      "structuredContent": {
+        "result": "{\n  \"view\": \"top\",\n  \"standard_view_id\": 5,\n  \"activated\": true,\n  \"orientation_verified\": true,\n  \"attempts\": 1,\n  \"rotation_matrix\": [\n    1.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    1.0,\n    -0.0,\n    -1.0,\n    -0.0\n  ]\n}"
+      },
+      "isError": false
+    },
+    "capture": {
+      "path": "top_section.png",
+      "source_capture_sha256": "cfa0b4085e4ac74dc1a6ab3179996ff079cf9a0e93ff86e76dd019ae8f893fc1",
+      "sha256": "547fb146127d7f815ebe5cc000709e855cd714618537bb3af3227da95e2c5634",
+      "lossless_pixel_equal": true
+    }
+  },
+  {
+    "spec": {
+      "name": "front",
+      "view": "front"
+    },
+    "section_reset": "Closed read-only inspection document without saving and reopened original file",
+    "orientation": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"view\": \"front\",\n  \"standard_view_id\": 1,\n  \"activated\": true,\n  \"orientation_verified\": true,\n  \"attempts\": 1,\n  \"rotation_matrix\": [\n    1.0,\n    0.0,\n    0.0,\n    0.0,\n    1.0,\n    0.0,\n    0.0,\n    0.0,\n    1.0\n  ]\n}"
+        }
+      ],
+      "structuredContent": {
+        "result": "{\n  \"view\": \"front\",\n  \"standard_view_id\": 1,\n  \"activated\": true,\n  \"orientation_verified\": true,\n  \"attempts\": 1,\n  \"rotation_matrix\": [\n    1.0,\n    0.0,\n    0.0,\n    0.0,\n    1.0,\n    0.0,\n    0.0,\n    0.0,\n    1.0\n  ]\n}"
+      },
+      "isError": false
+    },
+    "capture": {
+      "path": "front.png",
+      "source_capture_sha256": "d86952cd7f5dc291d3c1e21fd70a34309c3ed1faa2de677b4b691ed85b108ba9",
+      "sha256": "57b6ff96dd67a21150548ae28ee9603c27da83851084ab3c82df50868e471d12",
+      "lossless_pixel_equal": true
+    }
+  },
+  {
+    "spec": {
+      "name": "top",
+      "view": "top"
+    },
+    "section_reset": "Closed read-only inspection document without saving and reopened original file",
+    "orientation": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"view\": \"top\",\n  \"standard_view_id\": 5,\n  \"activated\": true,\n  \"orientation_verified\": true,\n  \"attempts\": 1,\n  \"rotation_matrix\": [\n    1.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    1.0,\n    -0.0,\n    -1.0,\n    -0.0\n  ]\n}"
+        }
+      ],
+      "structuredContent": {
+        "result": "{\n  \"view\": \"top\",\n  \"standard_view_id\": 5,\n  \"activated\": true,\n  \"orientation_verified\": true,\n  \"attempts\": 1,\n  \"rotation_matrix\": [\n    1.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    1.0,\n    -0.0,\n    -1.0,\n    -0.0\n  ]\n}"
+      },
+      "isError": false
+    },
+    "capture": {
+      "path": "top.png",
+      "source_capture_sha256": "17e65d272a5f9803e6e2cc23a096918d8450fb51c6dfafaf3ff83cd9b63c3648",
+      "sha256": "205fd0ff5cac6999c7f01324c0061cf0f65c7ea75999a96d1b92b164afd604d2",
+      "lossless_pixel_equal": true
+    }
+  },
+  {
+    "spec": {
+      "name": "right",
+      "view": "right"
+    },
+    "section_reset": "Closed read-only inspection document without saving and reopened original file",
+    "orientation": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"view\": \"right\",\n  \"standard_view_id\": 4,\n  \"activated\": true,\n  \"orientation_verified\": true,\n  \"attempts\": 1,\n  \"rotation_matrix\": [\n    0.0,\n    0.0,\n    1.0,\n    0.0,\n    1.0,\n    0.0,\n    -1.0,\n    -0.0,\n    -0.0\n  ]\n}"
+        }
+      ],
+      "structuredContent": {
+        "result": "{\n  \"view\": \"right\",\n  \"standard_view_id\": 4,\n  \"activated\": true,\n  \"orientation_verified\": true,\n  \"attempts\": 1,\n  \"rotation_matrix\": [\n    0.0,\n    0.0,\n    1.0,\n    0.0,\n    1.0,\n    0.0,\n    -1.0,\n    -0.0,\n    -0.0\n  ]\n}"
+      },
+      "isError": false
+    },
+    "capture": {
+      "path": "right.png",
+      "source_capture_sha256": "d7d6e4686cdc136268f1fda4683ec81a94af8d6dcb749ee0784b842e93c73640",
+      "sha256": "8206bd2649a987ff2254dabf7b843f817bdabe52b6839d9fca88b192720d4922",
+      "lossless_pixel_equal": true
+    }
+  },
+  {
+    "spec": {
+      "name": "isometric",
+      "view": "isometric"
+    },
+    "section_reset": "Closed read-only inspection document without saving and reopened original file",
+    "orientation": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"view\": \"isometric\",\n  \"standard_view_id\": 7,\n  \"activated\": true,\n  \"orientation_verified\": true,\n  \"attempts\": 1,\n  \"rotation_matrix\": [\n    0.7071067811865462,\n    -0.40820405591135517,\n    0.5773815451999839,\n    0.0,\n    0.8165408118857499,\n    0.5772877120855426,\n    -0.7071067811865488,\n    -0.4082040559113537,\n    0.5773815451999817\n  ]\n}"
+        }
+      ],
+      "structuredContent": {
+        "result": "{\n  \"view\": \"isometric\",\n  \"standard_view_id\": 7,\n  \"activated\": true,\n  \"orientation_verified\": true,\n  \"attempts\": 1,\n  \"rotation_matrix\": [\n    0.7071067811865462,\n    -0.40820405591135517,\n    0.5773815451999839,\n    0.0,\n    0.8165408118857499,\n    0.5772877120855426,\n    -0.7071067811865488,\n    -0.4082040559113537,\n    0.5773815451999817\n  ]\n}"
+      },
+      "isError": false
+    },
+    "capture": {
+      "path": "isometric.png",
+      "source_capture_sha256": "205241b90d11ad17576d9b29c31934be7598ba8fe50fbcdcc966d89e23235649",
+      "sha256": "90f336fa7468fbe42e4b1b72d4749a9948e007859c96f4fe17c0f14db35f8fa1",
+      "lossless_pixel_equal": true
+    }
+  }
+]
