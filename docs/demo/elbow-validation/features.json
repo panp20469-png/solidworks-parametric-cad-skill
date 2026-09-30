@@ -1,0 +1,296 @@
+[
+  {
+    "name": "收藏",
+    "type": "FavoriteFolder"
+  },
+  {
+    "name": "历史记录",
+    "type": "HistoryFolder"
+  },
+  {
+    "name": "选择集",
+    "type": "SelectionSetFolder"
+  },
+  {
+    "name": "传感器",
+    "type": "SensorFolder"
+  },
+  {
+    "name": "设计活页夹",
+    "type": "DocsFolder"
+  },
+  {
+    "name": "注解",
+    "type": "DetailCabinet"
+  },
+  {
+    "name": "注释",
+    "type": "NotesAreaFtrFolder"
+  },
+  {
+    "name": "注释区域1",
+    "type": "AnnotationViewFeat"
+  },
+  {
+    "name": "注释1___EndTag___",
+    "type": "FtrFolder"
+  },
+  {
+    "name": "标注",
+    "type": "InkMarkupFolder"
+  },
+  {
+    "name": "光源与相机",
+    "type": "EnvFolder"
+  },
+  {
+    "name": "环境光源",
+    "type": "AmbientLight"
+  },
+  {
+    "name": "线光源 1",
+    "type": "DirectionLight"
+  },
+  {
+    "name": "线光源 2",
+    "type": "DirectionLight"
+  },
+  {
+    "name": "线光源 3",
+    "type": "DirectionLight"
+  },
+  {
+    "name": "线光源 4",
+    "type": "DirectionLight"
+  },
+  {
+    "name": "实体",
+    "type": "SolidBodyFolder"
+  },
+  {
+    "name": "曲面实体",
+    "type": "SurfaceBodyFolder"
+  },
+  {
+    "name": "备注",
+    "type": "CommentsFolder"
+  },
+  {
+    "name": "方程式",
+    "type": "EqnFolder"
+  },
+  {
+    "name": "材质 <未指定>",
+    "type": "MaterialFolder"
+  },
+  {
+    "name": "前视基准面",
+    "type": "RefPlane"
+  },
+  {
+    "name": "上视基准面",
+    "type": "RefPlane"
+  },
+  {
+    "name": "右视基准面",
+    "type": "RefPlane"
+  },
+  {
+    "name": "原点",
+    "type": "OriginProfileFeature"
+  },
+  {
+    "name": "Tables",
+    "type": "ConfigTableFolder"
+  },
+  {
+    "name": "Configuration Table",
+    "type": "NativeConfigurationTableFeature"
+  },
+  {
+    "name": "草图1",
+    "type": "ProfileFeature"
+  },
+  {
+    "name": "凸台-拉伸1",
+    "type": "Extrusion"
+  },
+  {
+    "name": "草图2",
+    "type": "ProfileFeature"
+  },
+  {
+    "name": "切除-拉伸1",
+    "type": "ICE"
+  },
+  {
+    "name": "草图3",
+    "type": "ProfileFeature"
+  },
+  {
+    "name": "扫描1",
+    "type": "Sweep"
+  },
+  {
+    "name": "3D草图1",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "基准面1",
+    "type": "RefPlane"
+  },
+  {
+    "name": "草图5",
+    "type": "ProfileFeature"
+  },
+  {
+    "name": "3D草图2",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "扫描2",
+    "type": "Sweep"
+  },
+  {
+    "name": "3D草图3",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "切除-扫描1",
+    "type": "SweepCut"
+  },
+  {
+    "name": "3D草图4",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "切除-扫描2",
+    "type": "SweepCut"
+  },
+  {
+    "name": "3D草图5",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "切除-扫描3",
+    "type": "SweepCut"
+  },
+  {
+    "name": "3D草图6",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "切除-扫描4",
+    "type": "SweepCut"
+  },
+  {
+    "name": "3D草图7",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "扫描3",
+    "type": "Sweep"
+  },
+  {
+    "name": "3D草图8",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "切除-扫描5",
+    "type": "SweepCut"
+  },
+  {
+    "name": "3D草图9",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "基准面2",
+    "type": "RefPlane"
+  },
+  {
+    "name": "草图12",
+    "type": "ProfileFeature"
+  },
+  {
+    "name": "3D草图10",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "扫描4",
+    "type": "Sweep"
+  },
+  {
+    "name": "3D草图11",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "切除-扫描6",
+    "type": "SweepCut"
+  },
+  {
+    "name": "3D草图12",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "切除-扫描7",
+    "type": "SweepCut"
+  },
+  {
+    "name": "装饰螺纹线1",
+    "type": "CosmeticThread",
+    "Diameter": 0.0059999999999999975,
+    "ThreadCallout": "M6x1 THRU",
+    "BlindDepth": 0.005999999999999997,
+    "EndCondition": 2
+  },
+  {
+    "name": "3D草图13",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "切除-扫描8",
+    "type": "SweepCut"
+  },
+  {
+    "name": "装饰螺纹线2",
+    "type": "CosmeticThread",
+    "Diameter": 0.006000000000000001,
+    "ThreadCallout": "M6x1 THRU",
+    "BlindDepth": 0.005999999999999997,
+    "EndCondition": 2
+  },
+  {
+    "name": "3D草图14",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "扫描5",
+    "type": "Sweep"
+  },
+  {
+    "name": "3D草图15",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "切除-扫描9",
+    "type": "SweepCut"
+  },
+  {
+    "name": "草图18",
+    "type": "ProfileFeature"
+  },
+  {
+    "name": "切除-扫描10",
+    "type": "SweepCut"
+  },
+  {
+    "name": "圆角1",
+    "type": "Fillet",
+    "DefaultRadius": 0.003
+  },
+  {
+    "name": "圆角2",
+    "type": "Fillet",
+    "DefaultRadius": 0.003
+  }
+]

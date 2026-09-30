@@ -1,0 +1,300 @@
+{
+  "date": "2026-09-30",
+  "reviewer": "AI agent visual comparison",
+  "model_sha256": "fa44d17e0b59a71d77a19f2b32bdd094d7b5937f95e19b225187c26eaa230859",
+  "views": [
+    {
+      "view": "front",
+      "sha256": "a1d5dc999bc55c428a3716c7d7bcc1999e022a9ce59f164765010d938394c147",
+      "source_capture_sha256": "cfb12d943960636f18752b2fcd8c6c63e2e7fdbc031189618162510d889c11ce",
+      "pixel_equal_lossless_conversion": true,
+      "capture": {
+        "orientation": {
+          "view": "front",
+          "standard_view_id": 1,
+          "activated": true,
+          "orientation_verified": true,
+          "attempts": 1,
+          "rotation_matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "section": "None: original file opened read-only before section operations"
+      },
+      "status": "PASS",
+      "note": "主视外形与原图非剖切部分相符：上法兰、侧支管、正面凸台和底座位置对应。"
+    },
+    {
+      "view": "top",
+      "sha256": "af6da978e3abcdc42fe55651c6874edc213c1c8eecc33b6885b42b5276ff5e8b",
+      "source_capture_sha256": "2a06bcb0a6991c2b5517077d22f197fb105ca122bc6f1522b0243e54b53c26b7",
+      "pixel_equal_lossless_conversion": true,
+      "capture": {
+        "orientation": {
+          "view": "top",
+          "standard_view_id": 5,
+          "activated": true,
+          "orientation_verified": true,
+          "attempts": 1,
+          "rotation_matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            -0.0,
+            -1.0,
+            -0.0
+          ]
+        },
+        "section": "None: original file opened read-only before section operations"
+      },
+      "status": "PASS",
+      "note": "俯视确认底座四孔及两法兰方向，凸台伸出底座前边。"
+    },
+    {
+      "view": "right",
+      "sha256": "61fb4f09d0360ac3639270fc5ab69469ef18a0a2a23fdb2a1dfae4ced51ed3e1",
+      "source_capture_sha256": "6b84f188f97bc5db00ace0704b7d9bb78185531d87acd13fd05c23ef138a6420",
+      "pixel_equal_lossless_conversion": true,
+      "capture": {
+        "orientation": {
+          "view": "right",
+          "standard_view_id": 4,
+          "activated": true,
+          "orientation_verified": true,
+          "attempts": 1,
+          "rotation_matrix": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            -1.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "section": "None: original file opened read-only before section operations"
+      },
+      "status": "PASS",
+      "note": "右视确认正面凸台方向和主体连接，无多余独立实体。"
+    },
+    {
+      "view": "isometric",
+      "sha256": "4d9fcb79052e8ad6e5dec03172f3dd1f88c550bec3bbd5b52b8d8f1a79eaf8c7",
+      "source_capture_sha256": "b6bf318e8a73aeb27c45de781c0468fa7e3cf8aa25267b27479772d4bee43230",
+      "pixel_equal_lossless_conversion": true,
+      "capture": {
+        "orientation": {
+          "view": "isometric",
+          "standard_view_id": 7,
+          "activated": true,
+          "orientation_verified": true,
+          "attempts": 1,
+          "rotation_matrix": [
+            0.7071067811865462,
+            -0.40820405591135517,
+            0.5773815451999839,
+            0.0,
+            0.8165408118857499,
+            0.5772877120855426,
+            -0.7071067811865488,
+            -0.4082040559113537,
+            0.5773815451999817
+          ]
+        },
+        "section": "None: original file opened read-only before section operations"
+      },
+      "status": "PASS",
+      "note": "等轴测形态、三耳上法兰、双耳侧法兰和底座与原图立体示意对应。"
+    },
+    {
+      "view": "B",
+      "sha256": "d633fa99dec13b51b7d4cf4d59bebe09097a994ffb3a784eecde2352ed8a3a98",
+      "source_capture_sha256": "d2f11a48ad74695323ef47a4cc70f7e2e0950deb7fe675bfc742690733eb9fcf",
+      "pixel_equal_lossless_conversion": true,
+      "capture": {
+        "name": "B",
+        "face": 21,
+        "requested_normal": [
+          -0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        "normal_to_result": true,
+        "matrix": [
+          0.0,
+          0.7071067811865476,
+          -0.7071067811865476,
+          0.0,
+          0.7071067811865476,
+          0.7071067811865476,
+          1.0,
+          -0.0,
+          0.0,
+          1.0408340855860843e-17,
+          -0.04353553390593273,
+          -0.0846015510839149,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "normal_alignment": 1.0000000000000002
+      },
+      "status": "PASS",
+      "note": "沿上法兰实际端面法向查看：三孔等间隔，三耳轮廓和中央通孔对应 B 端视。"
+    },
+    {
+      "view": "C",
+      "sha256": "8dad83df93a35f81965036e517091dc43a088c86026663792f7811ac63a3bb00",
+      "source_capture_sha256": "0dd844844a4ff86acd9f7e630f1aa0bc7bc4707b3f59114084d9fe60ccf340ee",
+      "pixel_equal_lossless_conversion": true,
+      "capture": {
+        "name": "C",
+        "face": 47,
+        "requested_normal": [
+          0.8660254037844386,
+          0.5,
+          0
+        ],
+        "normal_to_result": true,
+        "matrix": [
+          0.0,
+          -0.5000000000000003,
+          0.8660254037844385,
+          0.0,
+          0.8660254037844385,
+          0.5000000000000003,
+          -1.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.043301270189221905,
+          -0.05600000000000002,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "normal_alignment": 1.0
+      },
+      "status": "PASS",
+      "note": "沿侧法兰实际端面法向查看：两耳孔与中央通道共用端面，R12/R6 外切轮廓对应 C 端视。"
+    },
+    {
+      "view": "front_section",
+      "sha256": "171cc266cf6c5038192f99782d256f8788ce8f09cd3834ff3107d34418af3ae0",
+      "source_capture_sha256": "0a2c753a77b4bcbc90adabbd020c96cc7a23b705c3391a2876841a3e3368719a",
+      "pixel_equal_lossless_conversion": true,
+      "capture": {
+        "orientation": {
+          "view": "front",
+          "standard_view_id": 1,
+          "activated": true,
+          "orientation_verified": true,
+          "attempts": 1,
+          "rotation_matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "section": {
+          "section_view_active": true,
+          "plane": "前视基准面",
+          "offset_mm": 0.0,
+          "graphics_only": true
+        }
+      },
+      "status": "PASS",
+      "note": "Z=0 主剖面：主管从底部经弯曲段贯通上法兰，侧孔与主管连通，背侧壁保持实心。原图为半剖表达，此处用全剖及普通主视组合核对。"
+    },
+    {
+      "view": "AA",
+      "sha256": "20c63d9b0b87918e1a15db615bb6b66e14a844c542457f73818e2bdcd22f1786",
+      "source_capture_sha256": "3c5e39daf7405451c90fe92cb9120896cffc501192b971412ec048250aea4bf3",
+      "pixel_equal_lossless_conversion": true,
+      "capture": {
+        "orientation": {
+          "view": "top",
+          "standard_view_id": 5,
+          "activated": true,
+          "orientation_verified": true,
+          "attempts": 1,
+          "rotation_matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            -0.0,
+            -1.0,
+            -0.0
+          ]
+        },
+        "section": {
+          "section_view_active": true,
+          "plane": "上视基准面",
+          "offset_mm": 20.0,
+          "graphics_only": true
+        }
+      },
+      "status": "PASS",
+      "note": "Y=20 的 A-A 剖面：主管环形壁、正面凸台通道和底座四孔符合图纸；凸台孔与主管连通且未切穿背侧。"
+    },
+    {
+      "view": "boss_section",
+      "sha256": "f9dd5ee5effbec8599be9599e014f9f15dad134a3695fa5f04de4a78a6e1eafd",
+      "source_capture_sha256": "8a9a60bf747b32387c215b2ca5a908e519e0bd310daf9178d0fbf1be1ab273f7",
+      "pixel_equal_lossless_conversion": true,
+      "capture": {
+        "orientation": {
+          "view": "right",
+          "standard_view_id": 4,
+          "activated": true,
+          "orientation_verified": true,
+          "attempts": 1,
+          "rotation_matrix": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            -1.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "section": {
+          "section_view_active": true,
+          "plane": "右视基准面",
+          "offset_mm": 0.0,
+          "graphics_only": true
+        }
+      },
+      "status": "PASS",
+      "note": "X=0 纵剖：Φ12 凸台孔进入主管，底部与主管相连，侧壁保留，与图纸局部纵剖相符。"
+    }
+  ],
+  "method": "实际 SW 取图及端面方向核对后，由 AI 对照原始图纸；不是通用自动图像判定器。"
+}

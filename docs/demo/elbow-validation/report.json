@@ -1,0 +1,1584 @@
+{
+  "status": "DRAWING_MATCH_PASS",
+  "model_sha256": "fa44d17e0b59a71d77a19f2b32bdd094d7b5937f95e19b225187c26eaa230859",
+  "contract_sha256": "0b92a2904ad679acbbbd264d6684285d2d392c11e08ddce86f26da401c3d0eea",
+  "checks": [
+    {
+      "id": "E01",
+      "label": "底座宽",
+      "actual": 60.0,
+      "expected": 60.0,
+      "faces": [
+        6,
+        10
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E02",
+      "label": "底座深",
+      "actual": 60.0,
+      "expected": 60.0,
+      "faces": [
+        4,
+        8
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E03",
+      "label": "底座厚",
+      "actual": 10.0,
+      "expected": 10.0,
+      "faces": [
+        11,
+        12
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E04",
+      "label": "底座四角 R10",
+      "actual": [
+        10.000000000000016,
+        10.000000000000023,
+        10.000000000000032,
+        10.000000000000034
+      ],
+      "expected": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "faces": [
+        3,
+        5,
+        7,
+        9
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E05",
+      "label": "底座四孔 Φ8",
+      "actual": [
+        7.999999999999998,
+        7.999999999999998,
+        7.999999999999998,
+        7.999999999999998
+      ],
+      "expected": [
+        8.0,
+        8.0,
+        8.0,
+        8.0
+      ],
+      "faces": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E06",
+      "label": "底座孔数",
+      "actual": 4,
+      "expected": 4,
+      "faces": [],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E07",
+      "label": "底座四孔 XZ 位置",
+      "actual": [
+        [
+          -20.0,
+          -20.0
+        ],
+        [
+          -20.0,
+          20.0
+        ],
+        [
+          20.0,
+          -20.0
+        ],
+        [
+          20.0,
+          20.0
+        ]
+      ],
+      "expected": [
+        [
+          -20,
+          -20
+        ],
+        [
+          -20,
+          20
+        ],
+        [
+          20,
+          -20
+        ],
+        [
+          20,
+          20
+        ]
+      ],
+      "faces": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E08",
+      "label": "底座四孔贯穿范围",
+      "actual": [
+        [
+          0.0,
+          10.0
+        ],
+        [
+          0.0,
+          10.0
+        ],
+        [
+          0.0,
+          10.0
+        ],
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          10.0
+        ],
+        [
+          0,
+          10.0
+        ],
+        [
+          0,
+          10.0
+        ],
+        [
+          0,
+          10.0
+        ]
+      ],
+      "faces": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E09",
+      "label": "主管上下直段外径",
+      "actual": [
+        39.99999999999999,
+        39.99999999999999
+      ],
+      "expected": [
+        40.0,
+        40.0
+      ],
+      "faces": [
+        17,
+        19
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E10",
+      "label": "主管上下直段内径",
+      "actual": [
+        29.99999999999999,
+        30.000000000000004
+      ],
+      "expected": [
+        30.0,
+        30.0
+      ],
+      "faces": [
+        54,
+        34
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E11",
+      "label": "弯管内外中心线 R35",
+      "actual": [
+        35.00000000000005,
+        35.00000000000005
+      ],
+      "expected": [
+        35.0,
+        35.0
+      ],
+      "faces": [
+        18,
+        53
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E12",
+      "label": "弯管中心坐标",
+      "actual": [
+        [
+          -35.00000000000006,
+          39.99999999999998,
+          0.0
+        ],
+        [
+          -35.00000000000006,
+          39.99999999999998,
+          0.0
+        ]
+      ],
+      "expected": [
+        [
+          -35.0,
+          40.0,
+          0
+        ],
+        [
+          -35.0,
+          40.0,
+          0
+        ]
+      ],
+      "faces": [
+        18,
+        53
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E13",
+      "label": "弯管内外半径与壁厚",
+      "actual": [
+        19.999999999999996,
+        14.999999999999995,
+        5.000000000000003
+      ],
+      "expected": [
+        20,
+        15,
+        5
+      ],
+      "faces": [
+        18,
+        53
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E14",
+      "label": "下主管轴线 XZ",
+      "actual": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "faces": [
+        17,
+        54
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E15",
+      "label": "主管上下轴向",
+      "actual": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707106781186547,
+          0.707106781186548,
+          0.0
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -0.7071067811865476,
+          0.7071067811865476,
+          0
+        ]
+      ],
+      "faces": [
+        17,
+        19
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E16",
+      "label": "主管上段方向角",
+      "actual": 134.99999999999997,
+      "expected": 135.0,
+      "faces": [
+        19
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E17",
+      "label": "下直段与内弯管连接高",
+      "actual": 40.0,
+      "expected": 40.0,
+      "faces": [
+        54
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E18",
+      "label": "下主管通到底面",
+      "actual": 0.0,
+      "expected": 0,
+      "faces": [
+        54
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E19",
+      "label": "B 后端中心高度",
+      "actual": 80.0,
+      "expected": 80.0,
+      "faces": [
+        19,
+        20
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E20",
+      "label": "B 法兰厚度",
+      "actual": 9.999999999999986,
+      "expected": 10.0,
+      "faces": [
+        21,
+        20
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E21",
+      "label": "B 法兰主体 Φ56",
+      "actual": [
+        55.99999999999999,
+        56.00000000000001,
+        55.99999999999999
+      ],
+      "expected": [
+        56.0,
+        56.0,
+        56.0
+      ],
+      "faces": [
+        23,
+        27,
+        31
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E22",
+      "label": "B 三耳 R10",
+      "actual": [
+        10.000000000000005,
+        10.000000000000005,
+        9.999999999999998
+      ],
+      "expected": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "faces": [
+        25,
+        29,
+        33
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E23",
+      "label": "B 六处轮廓 R5",
+      "actual": [
+        5.000000000000008,
+        4.999999999999992,
+        4.999999999999994,
+        4.999999999999997,
+        4.999999999999992,
+        5.000000000000003
+      ],
+      "expected": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "faces": [
+        22,
+        24,
+        26,
+        28,
+        30,
+        32
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E24",
+      "label": "B 三孔 Φ8",
+      "actual": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "expected": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "faces": [
+        35,
+        36,
+        37
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E25",
+      "label": "B Φ8 圆柱面数",
+      "actual": 3,
+      "expected": 3,
+      "faces": [],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E26",
+      "label": "B 孔中心节圆半径",
+      "actual": [
+        27.999999999999996,
+        27.999999999999996,
+        27.999999999999996
+      ],
+      "expected": [
+        28.0,
+        28.0,
+        28.0
+      ],
+      "faces": [
+        35,
+        36,
+        37
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E27",
+      "label": "B 孔相邻角度",
+      "actual": [
+        119.99999999999997,
+        120.00000000000007,
+        119.99999999999999
+      ],
+      "expected": [
+        120.0,
+        120.0,
+        120.0
+      ],
+      "faces": [
+        35,
+        36,
+        37
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E28",
+      "label": "B 三孔贯穿厚度",
+      "actual": [
+        [
+          7.105427357601002e-15,
+          10.00000000000001
+        ],
+        [
+          0.0,
+          10.0
+        ],
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          10.0
+        ],
+        [
+          0,
+          10.0
+        ],
+        [
+          0,
+          10.0
+        ]
+      ],
+      "faces": [
+        35,
+        36,
+        37
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E29",
+      "label": "B 主体与上主管共轴",
+      "actual": [
+        2.5121479338940403e-15,
+        2.5121479338940403e-15,
+        2.5121479338940403e-15,
+        5.024305450862795e-15
+      ],
+      "expected": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "faces": [
+        23,
+        27,
+        31,
+        34
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E30",
+      "label": "上主管通至法兰外面",
+      "actual": 10.000000000000002,
+      "expected": 10.0,
+      "faces": [
+        34
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E31",
+      "label": "侧支管外径",
+      "actual": [
+        20.0
+      ],
+      "expected": [
+        20.0
+      ],
+      "faces": [
+        38
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E32",
+      "label": "侧支管内径",
+      "actual": [
+        12.0
+      ],
+      "expected": [
+        12.0
+      ],
+      "faces": [
+        1
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E33",
+      "label": "侧支管轴高",
+      "actual": 50.0,
+      "expected": 50.0,
+      "faces": [
+        38
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E34",
+      "label": "侧支管轴向",
+      "actual": [
+        0.8660254037844388,
+        0.4999999999999998,
+        0.0
+      ],
+      "expected": [
+        0.8660254037844386,
+        0.5,
+        0
+      ],
+      "faces": [
+        38
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E35",
+      "label": "侧支管轴线基准",
+      "actual": [
+        0.0,
+        50.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        50.0,
+        0
+      ],
+      "faces": [
+        38
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E36",
+      "label": "侧支管 25 尺寸端点",
+      "actual": 25.0,
+      "expected": 25.0,
+      "faces": [
+        0
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E37",
+      "label": "侧法兰厚 6",
+      "actual": 6.0,
+      "expected": 6.0,
+      "faces": [
+        47,
+        0
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E38",
+      "label": "侧法兰总轴向位置",
+      "actual": 31.0,
+      "expected": 31.0,
+      "faces": [
+        47
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E39",
+      "label": "C 中央轮廓 R12",
+      "actual": [
+        12.0,
+        12.0
+      ],
+      "expected": [
+        12.0,
+        12.0
+      ],
+      "faces": [
+        41,
+        45
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E40",
+      "label": "C 两耳 R6",
+      "actual": [
+        6.0,
+        6.0
+      ],
+      "expected": [
+        6.0,
+        6.0
+      ],
+      "faces": [
+        39,
+        43
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E41",
+      "label": "C 中孔与支管共轴",
+      "actual": [
+        1.2306961192854808e-14,
+        0.0,
+        3.552713678800501e-15,
+        3.552713678800501e-15
+      ],
+      "expected": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "faces": [
+        1,
+        38,
+        41,
+        45
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E42",
+      "label": "M6 底孔孔距",
+      "actual": 32.0,
+      "expected": 32.0,
+      "faces": [
+        49,
+        50
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E43",
+      "label": "M6 底孔 Φ5",
+      "actual": [
+        4.999999999999997,
+        5.000000000000001
+      ],
+      "expected": [
+        5,
+        5
+      ],
+      "faces": [
+        49,
+        50
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E44",
+      "label": "两螺纹底孔轴向范围",
+      "actual": [
+        [
+          25.000000000000004,
+          30.999999999999996
+        ],
+        [
+          25.000000000000004,
+          30.999999999999996
+        ]
+      ],
+      "expected": [
+        [
+          25,
+          31
+        ],
+        [
+          25,
+          31
+        ]
+      ],
+      "faces": [
+        49,
+        50
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E45",
+      "label": "两底孔轴向",
+      "actual": [
+        [
+          0.8660254037844378,
+          0.5000000000000014,
+          0.0
+        ],
+        [
+          0.8660254037844378,
+          0.5000000000000014,
+          0.0
+        ]
+      ],
+      "expected": [
+        [
+          0.8660254037844386,
+          0.5,
+          0
+        ],
+        [
+          0.8660254037844386,
+          0.5,
+          0
+        ]
+      ],
+      "faces": [
+        49,
+        50
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E46",
+      "label": "装饰螺纹数",
+      "actual": 2,
+      "expected": 2,
+      "faces": [],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E47",
+      "label": "螺纹公称直径",
+      "actual": [
+        5.999999999999997,
+        6.000000000000001
+      ],
+      "expected": [
+        6,
+        6
+      ],
+      "faces": [],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E48",
+      "label": "螺纹标注",
+      "actual": [
+        "M6x1 THRU",
+        "M6x1 THRU"
+      ],
+      "expected": [
+        "M6x1 THRU",
+        "M6x1 THRU"
+      ],
+      "faces": [],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E49",
+      "label": "螺纹通孔定义",
+      "actual": [
+        2,
+        2
+      ],
+      "expected": [
+        2,
+        2
+      ],
+      "faces": [],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E50",
+      "label": "螺纹长度",
+      "actual": [
+        5.9999999999999964,
+        5.9999999999999964
+      ],
+      "expected": [
+        6,
+        6
+      ],
+      "faces": [],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E51",
+      "label": "正面凸台 Φ24",
+      "actual": [
+        24.0
+      ],
+      "expected": [
+        24.0
+      ],
+      "faces": [
+        51
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E52",
+      "label": "正面孔 Φ12",
+      "actual": [
+        12.0
+      ],
+      "expected": [
+        12.0
+      ],
+      "faces": [
+        2
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E53",
+      "label": "正面孔中心高",
+      "actual": [
+        20.0,
+        20.0
+      ],
+      "expected": [
+        20.0,
+        20.0
+      ],
+      "faces": [
+        51,
+        2
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E54",
+      "label": "正面端面距主管轴 32",
+      "actual": 32.0,
+      "expected": 32.0,
+      "faces": [
+        52
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E55",
+      "label": "正面凸台与孔共轴",
+      "actual": [
+        [
+          0.0,
+          20.0
+        ],
+        [
+          0.0,
+          20.0
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          20
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "faces": [
+        51,
+        2
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E56",
+      "label": "正面凸台轴向",
+      "actual": [
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "faces": [
+        51,
+        2
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E57",
+      "label": "两组铸造过渡特征 R3",
+      "actual": [
+        3.0,
+        3.0
+      ],
+      "expected": [
+        3,
+        3
+      ],
+      "faces": [],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E58",
+      "label": "可解析铸造过渡面的 R3",
+      "actual": [
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0
+      ],
+      "expected": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "faces": [
+        56,
+        57,
+        61,
+        62,
+        64,
+        68
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E59",
+      "label": "单实体",
+      "actual": 1,
+      "expected": 1,
+      "faces": [],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E60",
+      "label": "B 六段 R5 与主体圆弧相切",
+      "actual": [
+        33.00000000000001,
+        33.0,
+        32.99999999999999,
+        32.99999999999999,
+        33.0,
+        33.0
+      ],
+      "expected": [
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0
+      ],
+      "faces": [
+        22,
+        24,
+        26,
+        28,
+        30,
+        32
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E61",
+      "label": "B 六段 R5 与耳圆相切",
+      "actual": [
+        15.0,
+        14.999999999999991,
+        14.999999999999998,
+        15.000000000000007,
+        14.999999999999991,
+        14.999999999999998
+      ],
+      "expected": [
+        15.0,
+        15.0,
+        15.0,
+        15.0,
+        15.0,
+        15.0
+      ],
+      "faces": [
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        25,
+        29,
+        33
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E62",
+      "label": "C 四斜边与 R12 相切",
+      "actual": [
+        12.000000000000009,
+        11.999999999999998,
+        12.0,
+        12.000000000000004
+      ],
+      "expected": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "faces": [
+        41,
+        40,
+        42,
+        44,
+        46
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    },
+    {
+      "id": "E63",
+      "label": "C 四斜边与 R6 相切",
+      "actual": [
+        6.000000000000005,
+        5.999999999999998,
+        6.000000000000006,
+        5.999999999999993
+      ],
+      "expected": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "faces": [
+        40,
+        46,
+        42,
+        44,
+        39,
+        43
+      ],
+      "tolerance": 0.001,
+      "status": "PASS"
+    }
+  ],
+  "numeric_tolerance_mm": 0.001,
+  "scope": "已确认合同与图4-36的名义几何；M6 使用底孔和装饰螺纹表达，非实体牙型。",
+  "date": "2026-09-30",
+  "method": "实体与特征自动读回 + AI 对原图和九个实际 SW 视图进行核对",
+  "basic_checks": {
+    "rebuild": {
+      "rebuilt": true
+    },
+    "geometry": {
+      "errors": 0,
+      "status": "OK"
+    }
+  },
+  "visual_review": {
+    "date": "2026-09-30",
+    "reviewer": "AI agent visual comparison",
+    "model_sha256": "fa44d17e0b59a71d77a19f2b32bdd094d7b5937f95e19b225187c26eaa230859",
+    "views": [
+      {
+        "view": "front",
+        "sha256": "a1d5dc999bc55c428a3716c7d7bcc1999e022a9ce59f164765010d938394c147",
+        "source_capture_sha256": "cfb12d943960636f18752b2fcd8c6c63e2e7fdbc031189618162510d889c11ce",
+        "pixel_equal_lossless_conversion": true,
+        "capture": {
+          "orientation": {
+            "view": "front",
+            "standard_view_id": 1,
+            "activated": true,
+            "orientation_verified": true,
+            "attempts": 1,
+            "rotation_matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "section": "None: original file opened read-only before section operations"
+        },
+        "status": "PASS",
+        "note": "主视外形与原图非剖切部分相符：上法兰、侧支管、正面凸台和底座位置对应。"
+      },
+      {
+        "view": "top",
+        "sha256": "af6da978e3abcdc42fe55651c6874edc213c1c8eecc33b6885b42b5276ff5e8b",
+        "source_capture_sha256": "2a06bcb0a6991c2b5517077d22f197fb105ca122bc6f1522b0243e54b53c26b7",
+        "pixel_equal_lossless_conversion": true,
+        "capture": {
+          "orientation": {
+            "view": "top",
+            "standard_view_id": 5,
+            "activated": true,
+            "orientation_verified": true,
+            "attempts": 1,
+            "rotation_matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              -0.0,
+              -1.0,
+              -0.0
+            ]
+          },
+          "section": "None: original file opened read-only before section operations"
+        },
+        "status": "PASS",
+        "note": "俯视确认底座四孔及两法兰方向，凸台伸出底座前边。"
+      },
+      {
+        "view": "right",
+        "sha256": "61fb4f09d0360ac3639270fc5ab69469ef18a0a2a23fdb2a1dfae4ced51ed3e1",
+        "source_capture_sha256": "6b84f188f97bc5db00ace0704b7d9bb78185531d87acd13fd05c23ef138a6420",
+        "pixel_equal_lossless_conversion": true,
+        "capture": {
+          "orientation": {
+            "view": "right",
+            "standard_view_id": 4,
+            "activated": true,
+            "orientation_verified": true,
+            "attempts": 1,
+            "rotation_matrix": [
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              -1.0,
+              -0.0,
+              -0.0
+            ]
+          },
+          "section": "None: original file opened read-only before section operations"
+        },
+        "status": "PASS",
+        "note": "右视确认正面凸台方向和主体连接，无多余独立实体。"
+      },
+      {
+        "view": "isometric",
+        "sha256": "4d9fcb79052e8ad6e5dec03172f3dd1f88c550bec3bbd5b52b8d8f1a79eaf8c7",
+        "source_capture_sha256": "b6bf318e8a73aeb27c45de781c0468fa7e3cf8aa25267b27479772d4bee43230",
+        "pixel_equal_lossless_conversion": true,
+        "capture": {
+          "orientation": {
+            "view": "isometric",
+            "standard_view_id": 7,
+            "activated": true,
+            "orientation_verified": true,
+            "attempts": 1,
+            "rotation_matrix": [
+              0.7071067811865462,
+              -0.40820405591135517,
+              0.5773815451999839,
+              0.0,
+              0.8165408118857499,
+              0.5772877120855426,
+              -0.7071067811865488,
+              -0.4082040559113537,
+              0.5773815451999817
+            ]
+          },
+          "section": "None: original file opened read-only before section operations"
+        },
+        "status": "PASS",
+        "note": "等轴测形态、三耳上法兰、双耳侧法兰和底座与原图立体示意对应。"
+      },
+      {
+        "view": "B",
+        "sha256": "d633fa99dec13b51b7d4cf4d59bebe09097a994ffb3a784eecde2352ed8a3a98",
+        "source_capture_sha256": "d2f11a48ad74695323ef47a4cc70f7e2e0950deb7fe675bfc742690733eb9fcf",
+        "pixel_equal_lossless_conversion": true,
+        "capture": {
+          "name": "B",
+          "face": 21,
+          "requested_normal": [
+            -0.7071067811865476,
+            0.7071067811865476,
+            0
+          ],
+          "normal_to_result": true,
+          "matrix": [
+            0.0,
+            0.7071067811865476,
+            -0.7071067811865476,
+            0.0,
+            0.7071067811865476,
+            0.7071067811865476,
+            1.0,
+            -0.0,
+            0.0,
+            1.0408340855860843e-17,
+            -0.04353553390593273,
+            -0.0846015510839149,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal_alignment": 1.0000000000000002
+        },
+        "status": "PASS",
+        "note": "沿上法兰实际端面法向查看：三孔等间隔，三耳轮廓和中央通孔对应 B 端视。"
+      },
+      {
+        "view": "C",
+        "sha256": "8dad83df93a35f81965036e517091dc43a088c86026663792f7811ac63a3bb00",
+        "source_capture_sha256": "0dd844844a4ff86acd9f7e630f1aa0bc7bc4707b3f59114084d9fe60ccf340ee",
+        "pixel_equal_lossless_conversion": true,
+        "capture": {
+          "name": "C",
+          "face": 47,
+          "requested_normal": [
+            0.8660254037844386,
+            0.5,
+            0
+          ],
+          "normal_to_result": true,
+          "matrix": [
+            0.0,
+            -0.5000000000000003,
+            0.8660254037844385,
+            0.0,
+            0.8660254037844385,
+            0.5000000000000003,
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.043301270189221905,
+            -0.05600000000000002,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal_alignment": 1.0
+        },
+        "status": "PASS",
+        "note": "沿侧法兰实际端面法向查看：两耳孔与中央通道共用端面，R12/R6 外切轮廓对应 C 端视。"
+      },
+      {
+        "view": "front_section",
+        "sha256": "171cc266cf6c5038192f99782d256f8788ce8f09cd3834ff3107d34418af3ae0",
+        "source_capture_sha256": "0a2c753a77b4bcbc90adabbd020c96cc7a23b705c3391a2876841a3e3368719a",
+        "pixel_equal_lossless_conversion": true,
+        "capture": {
+          "orientation": {
+            "view": "front",
+            "standard_view_id": 1,
+            "activated": true,
+            "orientation_verified": true,
+            "attempts": 1,
+            "rotation_matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "section": {
+            "section_view_active": true,
+            "plane": "前视基准面",
+            "offset_mm": 0.0,
+            "graphics_only": true
+          }
+        },
+        "status": "PASS",
+        "note": "Z=0 主剖面：主管从底部经弯曲段贯通上法兰，侧孔与主管连通，背侧壁保持实心。原图为半剖表达，此处用全剖及普通主视组合核对。"
+      },
+      {
+        "view": "AA",
+        "sha256": "20c63d9b0b87918e1a15db615bb6b66e14a844c542457f73818e2bdcd22f1786",
+        "source_capture_sha256": "3c5e39daf7405451c90fe92cb9120896cffc501192b971412ec048250aea4bf3",
+        "pixel_equal_lossless_conversion": true,
+        "capture": {
+          "orientation": {
+            "view": "top",
+            "standard_view_id": 5,
+            "activated": true,
+            "orientation_verified": true,
+            "attempts": 1,
+            "rotation_matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              -0.0,
+              -1.0,
+              -0.0
+            ]
+          },
+          "section": {
+            "section_view_active": true,
+            "plane": "上视基准面",
+            "offset_mm": 20.0,
+            "graphics_only": true
+          }
+        },
+        "status": "PASS",
+        "note": "Y=20 的 A-A 剖面：主管环形壁、正面凸台通道和底座四孔符合图纸；凸台孔与主管连通且未切穿背侧。"
+      },
+      {
+        "view": "boss_section",
+        "sha256": "f9dd5ee5effbec8599be9599e014f9f15dad134a3695fa5f04de4a78a6e1eafd",
+        "source_capture_sha256": "8a9a60bf747b32387c215b2ca5a908e519e0bd310daf9178d0fbf1be1ab273f7",
+        "pixel_equal_lossless_conversion": true,
+        "capture": {
+          "orientation": {
+            "view": "right",
+            "standard_view_id": 4,
+            "activated": true,
+            "orientation_verified": true,
+            "attempts": 1,
+            "rotation_matrix": [
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              -1.0,
+              -0.0,
+              -0.0
+            ]
+          },
+          "section": {
+            "section_view_active": true,
+            "plane": "右视基准面",
+            "offset_mm": 0.0,
+            "graphics_only": true
+          }
+        },
+        "status": "PASS",
+        "note": "X=0 纵剖：Φ12 凸台孔进入主管，底部与主管相连，侧壁保留，与图纸局部纵剖相符。"
+      }
+    ],
+    "method": "实际 SW 取图及端面方向核对后，由 AI 对照原始图纸；不是通用自动图像判定器。"
+  },
+  "source_drawing_sha256": "742301e59ca530782d83073c19cf22b7b9b06f5bf02b7fa05cfaf3eb78572f35"
+}

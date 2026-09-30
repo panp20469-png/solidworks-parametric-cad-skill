@@ -1,0 +1,13 @@
+{
+  "case": "elbow_436",
+  "drawing_match": "DRAWING_MATCH_PASS",
+  "date": "2026-09-30",
+  "checks": 63,
+  "reviewed_views": 9,
+  "body_count": 1,
+  "geometry_errors": 0,
+  "model_sha256": "fa44d17e0b59a71d77a19f2b32bdd094d7b5937f95e19b225187c26eaa230859",
+  "report": "report.md",
+  "method": "实体与特征自动读回 + AI 对原图和九个实际 SW 视图进行核对",
+  "scope": "已确认合同与图4-36的名义几何；M6 使用底孔和装饰螺纹表达，非实体牙型。"
+}
