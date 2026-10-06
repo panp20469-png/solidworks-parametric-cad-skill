@@ -15,6 +15,7 @@ metadata:
 - Export STEP/STP only when the user explicitly requests it. Native working checkpoints support recovery; do not accumulate failed neutral exports.
 - Treat the drawing, PDF, image, sketch, dimension table, or textual requirement as the modeling source. Do not open or reverse-engineer a user manual `.SLDPRT` unless the user explicitly asks for reference comparison or QA.
 - Do not browse the web for routine SolidWorks modeling. Use local references, known-good scripts, and SolidWorks runtime evidence first.
+- Preserve existing colors, appearances, physical materials, and scene settings unless the user requests changes. A modeling request alone does not authorize styling. For an authorized appearance change, retain the prior state and read back the affected scope; a setter return value does not prove the displayed appearance changed.
 
 ## Reference Routing
 

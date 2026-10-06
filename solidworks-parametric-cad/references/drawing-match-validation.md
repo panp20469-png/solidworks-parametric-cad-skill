@@ -2,7 +2,7 @@
 
 Use this reference for the drawing contract and acceptance reporting. Detailed automated measurements, section capture, and proving-view loops in this reference apply only to user-requested `full_drawing_match` mode. Default `basic_plus_human_review` mode performs one basic check and hands detailed drawing comparison to the user; an earlier mismatch does not automatically authorize a full validation loop.
 
-- Basic checks retain detection of failed features, known sketch-value mismatches, rebuild errors, unexpected body count, and obvious shape errors. Stop on an actual error; never continue merely because final review is manual.
+- Basic checks retain detection of failed features, known sketch-value mismatches, rebuild errors, unexpected body count, and obvious shape errors. For a geometry-changing group, also check a local physical result: a feature-tree entry and successful rebuild alone can hide a no-op. For a solid chamfer, verify generated faces, the requested distance/angle, and material removal; for a fillet, verify the intended faces/radius and affected region without assuming volume must decrease. Keep these checks local rather than expanding basic mode into full drawing acceptance. Stop on an actual error; never continue merely because final review is manual.
 - Report `AWAITING_USER_REVIEW` until the user accepts the model, then `USER_ACCEPTED`. Keep automated drawing-match status unverified unless the full checks really passed.
 - Record from-zero reproducibility independently: `NOT_RUN`, `PASS`, or `FAIL`, with the executed entrypoint and result log. Local repair success does not establish replay success.
 

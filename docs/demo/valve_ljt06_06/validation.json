@@ -1,0 +1,168 @@
+{
+  "status": "BASIC_CHECK_PASS",
+  "envelope_actual_mm": [
+    -80.00000000000001,
+    -47.0,
+    0.0,
+    35.0,
+    47.0,
+    80.0
+  ],
+  "envelope_expected_mm": [
+    -80.0,
+    -47,
+    0,
+    35.0,
+    47,
+    80
+  ],
+  "overall_size_mm": [
+    115.00000000000001,
+    94.0,
+    80.0
+  ],
+  "body_count": 1,
+  "model_sha256": "5d295dcacea4e6eeee8728aa1d2e79139323c32a6b5b451004e27b017f399501",
+  "drawing_acceptance": "AWAITING_USER_REVIEW",
+  "full_section_comparison": "NOT_RUN",
+  "from_zero_replay": "NOT_RUN",
+  "view": "custom isometric, global Z up",
+  "case": "LJT06.06",
+  "date": "2026-10-06",
+  "route": "Python/COM with local repairs",
+  "rebuild": {
+    "rebuilt": true
+  },
+  "geometry": {
+    "errors": 0,
+    "status": "OK"
+  },
+  "chamfer_faces": [
+    {
+      "radial_mm": 1.0000000000000107,
+      "axial_mm": 1.0000000000000078,
+      "cone": true
+    },
+    {
+      "radial_mm": 0.9999999999999911,
+      "axial_mm": 0.9999999999999858,
+      "cone": true
+    },
+    {
+      "radial_mm": 0.9999999999999805,
+      "axial_mm": 1.000000000000007,
+      "cone": true
+    },
+    {
+      "radial_mm": 0.9999999999999947,
+      "axial_mm": 0.9999999999999716,
+      "cone": true
+    },
+    {
+      "radial_mm": 1.0000000000000062,
+      "axial_mm": 1.000000000000013,
+      "cone": true
+    },
+    {
+      "radial_mm": 1.0000000000000062,
+      "axial_mm": 1.0000000000000124,
+      "cone": true
+    },
+    {
+      "radial_mm": 1.0000000000000062,
+      "axial_mm": 1.0000000000000124,
+      "cone": true
+    },
+    {
+      "radial_mm": 1.0000000000000062,
+      "axial_mm": 1.000000000000013,
+      "cone": true
+    },
+    {
+      "radial_mm": 1.0000000000000062,
+      "axial_mm": 1.0000000000000124,
+      "cone": true
+    },
+    {
+      "radial_mm": 1.0000000000000062,
+      "axial_mm": 1.000000000000013,
+      "cone": true
+    },
+    {
+      "radial_mm": 1.0000000000000062,
+      "axial_mm": 1.0000000000000124,
+      "cone": true
+    },
+    {
+      "radial_mm": 1.0000000000000062,
+      "axial_mm": 1.000000000000013,
+      "cone": true
+    },
+    {
+      "radial_mm": 0.99999999999998,
+      "axial_mm": 0.9999999999999858,
+      "cone": true
+    },
+    {
+      "radial_mm": 1.0000000000000075,
+      "axial_mm": 0.9999999999999858,
+      "cone": true
+    },
+    {
+      "radial_mm": 1.00000000000002,
+      "axial_mm": 1.0,
+      "cone": true
+    },
+    {
+      "radial_mm": 1.00000000000002,
+      "axial_mm": 1.0000000000000284,
+      "cone": true
+    },
+    {
+      "radial_mm": 0.999999999999996,
+      "axial_mm": 0.9999999999999929,
+      "cone": true
+    },
+    {
+      "radial_mm": 1.0000000000000093,
+      "axial_mm": 0.9999999999999858,
+      "cone": true
+    },
+    {
+      "radial_mm": 1.0000000000000218,
+      "axial_mm": 0.9999999999999858,
+      "cone": true
+    },
+    {
+      "radial_mm": 0.9999999999999942,
+      "axial_mm": 0.9999999999999929,
+      "cone": true
+    },
+    {
+      "radial_mm": 1.0000000000000493,
+      "axial_mm": 1.0000000000000284,
+      "cone": true
+    },
+    {
+      "radial_mm": 0.9999999999999942,
+      "axial_mm": 1.0,
+      "cone": true
+    },
+    {
+      "radial_mm": 1.0000000000000493,
+      "axial_mm": 1.0000000000000284,
+      "cone": true
+    },
+    {
+      "radial_mm": 0.9999999999999942,
+      "axial_mm": 1.0,
+      "cone": true
+    }
+  ],
+  "chamfer_count": 24,
+  "volume_mm3": 213213.292114196,
+  "chamfer_removed_mm3": 415.36865196115104,
+  "process_video": "NOT_RECORDED",
+  "public_script_from_zero": "NOT_RUN",
+  "public_contract_sha256": "89f61bc730851eb0467c453e4201dc37f28a837da19eb810a4f49488c074a1ee"
+}

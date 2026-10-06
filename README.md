@@ -2,7 +2,7 @@
 
 当前版本：**v1.1.0** · [更新记录](CHANGELOG.md) · [版本发布](https://github.com/panp20469-png/solidworks-parametric-cad-skill/releases)
 
-面向工程图的 SolidWorks 自动建模实验项目：包括 agent skill、读图与位置关系规则，以及弯头、109 双耳支架两个不同零件的案例资料。
+面向工程图的 SolidWorks 自动建模实验项目：包括 agent skill、读图与位置关系规则，以及弯头、109 双耳支架、LJT06.06 阀体三个零件的案例资料。
 
 这是公开发布的实验版。弯头案例已记录两次从空白零件到保存的完整执行；109 支架在修复后已使用公开案例脚本完成一次从空白零件到保存的完整自动运行，12 组特征全部通过，并提供过程录像。弯头与 109 支架均于 2026-09-30 补充完成实体测量及 AI 剖面、视图对照，记录 `DRAWING_MATCH_PASS`。这些固定案例不构成任意工程图自动转换或通用自动验收能力的证明。
 
@@ -16,6 +16,15 @@
 | --- | --- | --- |
 | 弯头 | 下方输入图、过程录像及原生模型 | 两次从零运行；[DRAWING_MATCH_PASS：63 项核验及九个视图对照](docs/demo/elbow-validation/report.md) |
 | 109 双耳支架 | [案例说明](docs/drawing109.md)、[模型](docs/demo/drawing109/drawing109.SLDPRT)、[自动建模视频](docs/demo/drawing109/automated-build-2x.mp4) | 一次从零运行，12 组特征通过；[DRAWING_MATCH_PASS：50 项核验及六个视图对照](docs/demo/drawing109/full-validation/report.md) |
+| LJT06.06 阀体 | [案例说明](docs/valve_ljt06_06.md)、[模型](docs/demo/valve_ljt06_06/valve_LJT06_06.SLDPRT)、[输入图](docs/demo/valve_ljt06_06/source-drawing.jpg) | 基础检查、外包络及24处C1实测通过；完整剖面对图、从零重放和过程录像尚缺 |
+
+### 第三个案例：LJT06.06 阀体
+
+![阀体实际 SolidWorks 模型](docs/demo/valve_ljt06_06/model.png)
+
+本案例增加了多剖视图、内腔与四个端口、两种端法兰及技术要求的处理。已保存原生模型并完成局部修复，当前状态为 `AWAITING_USER_REVIEW`，不是 `DRAWING_MATCH_PASS`。没有录制建模过程，也未完成修正后脚本的从零重放。详见[案例证据与限制](docs/valve_ljt06_06.md)。
+
+2026-10-06 主分支更新同时修正实体倒角枚举与空特征检测，完善局部验证、外观保留和识图复核规则；见[更新记录](CHANGELOG.md)。
 
 ### 第二个案例：109 双耳支架
 

@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "part_id": "LJT06.06",
+  "units": "mm",
+  "gate": "CONFIRMED",
+  "permission_to_generate_code": true,
+  "source": "../../docs/demo/valve_ljt06_06/source-drawing.jpg",
+  "ledger": "gate.md",
+  "unresolved": [],
+  "frame": {
+    "origin": "bottom mounting face at vertical port axis",
+    "x": "toward rounded right end",
+    "y": "toward C port",
+    "z": "up from mounting face"
+  },
+  "dimensions": {
+    "total_height": 80,
+    "port_height": 50,
+    "port_axis_offset": 50,
+    "body_diameter": 60,
+    "body_left_radius": 20,
+    "cavity_left_diameter": 30,
+    "cavity_right_radius": 20,
+    "cavity_height": 26,
+    "base_width": 70,
+    "base_thickness": 8,
+    "base_corner_radius": 10,
+    "base_hole_pitch": 50,
+    "base_hole_diameter": 10,
+    "bottom_neck_diameter": 35,
+    "bottom_bore_diameter": 25,
+    "port_total_length": 94,
+    "port_half_length": 47,
+    "port_flange_thickness": 8,
+    "port_bore_diameter": 16,
+    "c_neck_diameter": 25,
+    "d_neck_diameter": 30,
+    "c_flange_diameter": 30,
+    "c_hole_pitch": 44,
+    "d_flange_diameter": 50,
+    "ear_radius": 8,
+    "casting_fillet_radius": 3,
+    "chamfer": 1,
+    "upper_thread_major": 36,
+    "upper_thread_pitch": 4,
+    "ear_thread_major": 8,
+    "ear_thread_pitch": 1.25
+  },
+  "patterns": {
+    "base_count": 4,
+    "c_count": 2,
+    "d_angles_degrees": [
+      45,
+      135,
+      225,
+      315
+    ]
+  },
+  "derivations": {
+    "d_hole_pitch_radius": "d_flange_diameter/2; visible continuation circle through hole centers",
+    "cavity_top": "port_height+cavity_left_diameter/2",
+    "cavity_floor": "cavity_top-cavity_height",
+    "body_bottom": "port_height-body_left_radius",
+    "body_shoulder": "port_height+body_left_radius",
+    "flange_inner_y": "port_half_length-port_flange_thickness",
+    "port_neck_length": "flange_inner_y-body_diameter/2",
+    "thread_minor_diameter": "major-5*sqrt(3)*pitch/8"
+  },
+  "metadata": {
+    "material": "ZL102",
+    "thread_representation": "basic minor diameter plus cosmetic thread",
+    "upper_thread": "M36-6H",
+    "port_fit": "16H7",
+    "bottom_fit": "25H7",
+    "general_fillet": "R3 within drawing range R3-R5",
+    "general_chamfer": "C1",
+    "roughness": "Ra3.2/Ra6.3 as indicated; unmarked Ra12.5",
+    "heat_treatment": "stress relief",
+    "linear_tolerance": "GB/T 1804-2000-m",
+    "geometric_tolerance": "GB/T 1184-1996-K"
+  },
+  "verification": {
+    "mode": "basic_plus_human_review",
+    "body_count": 1,
+    "rebuild_errors": 0,
+    "drawing_acceptance": "AWAITING_USER_REVIEW",
+    "sections_for_user": [
+      "A-A: Y=0",
+      "B-B: X=-50"
+    ]
+  }
+}

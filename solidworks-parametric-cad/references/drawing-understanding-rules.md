@@ -20,7 +20,7 @@ An authorized previous model may corroborate these interpretations, but does not
 - Do not discard a drawing item merely because it does not create geometry directly. Material, roughness, tolerance, heat treatment, section marks, centerlines, and title-block data still need an explicit classification.
 - Use cross-view arithmetic before sketching. When one view gives a base thickness and another gives an absolute height, calculate the feature length from both values instead of estimating it visually.
 - Read the drawing twice: first to infer the part and feature order, then to account for every visible dimension and callout. If the second pass exposes an unused feature-critical item or a contradiction, stop before code generation.
-- Stop and ask the user when unresolved information can change topology, passage continuity, fit, mating, or manufacturing intent.
+- Before treating a dimension or relation as missing, enlarge the relevant source region and check thin continuation lines, centerlines, leader endpoints, technical notes, and related views. Distinguish unreadable or not-yet-resolved evidence from a demonstrated drawing omission; do not infer dimensions from pixel proximity alone. Ask only when consequential uncertainty remains after this focused review, without weakening the drawing gate.
 - Treat the drawing as the primary modeling source. Do not open or reverse-engineer a manual `.SLDPRT` unless the user explicitly asks for a reference comparison.
 
 ## Dimension Usage and Position Ledger

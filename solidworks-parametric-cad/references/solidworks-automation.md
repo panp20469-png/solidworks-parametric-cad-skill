@@ -1,4 +1,4 @@
-# SolidWorks Automation Notes
+﻿# SolidWorks Automation Notes
 
 ## Environment Checks
 
@@ -137,6 +137,13 @@ For this SolidWorks 2024 SP0.1 installation, do not treat `FeatureExtrusion3(...
 - Boss/base extrusion: `FeatureExtrusion2(...)`.
 - Through-all cut extrusion: `FeatureCut3(False, False, False, swEndCondThroughAll, swEndCondThroughAll, ...)`.
 - Cut validation: check volume or mass properties after the feature. A 60 x 60 x 10 mm block has `36000 mm^3`; four through holes of diameter 8 mm reduce it to about `33989.38 mm^3`.
+
+### Solid Chamfer API and Local Acceptance
+
+- `InsertFeatureChamfer` begins with `(Options, ChamferType, Width, Angle, ...)`. For a distance-angle solid chamfer use `swChamferAngleDistance = 1`; distance-distance is `2`. Do not substitute sketch-chamfer enum values or use `0` as a solid chamfer type. Verify unfamiliar enums against the installed type library.
+- Preserve the requested angle; do not silently fall back to a different chamfer method after failure. Reject invalid distances/angles and feature objects with no generated faces. For a solid hole entrance, independently measure both circular boundaries (C1 at 45 degrees gives 1 mm radial and axial offsets), and confirm volume decreases. Face count alone is not dimensional acceptance.
+- Scope edge selection by location, owning surfaces, and axis as well as radius: a hole rim and an outer ear arc can share the same radius. General chamfer/fillet notes do not authorize indiscriminate operations on every edge.
+- Record drawing-specific acceptance in the case runner. A disk patch to an MCP client requires a server reload before its live MCP tools can be claimed updated; direct COM verification tests only the loaded client path.
 
 ### Sketch Coordinates on Inclined Faces
 

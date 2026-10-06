@@ -8,6 +8,10 @@ Separate helper tests, recorded case replay, and unfamiliar-drawing evaluation. 
 
 For an updated planar arc wrapper, test local units, both directions, finite positive radii, coincident endpoints, 2D-only context, state restoration on failure, and measured-radius rejection. Mock tests validate dispatch logic only; live MCP feature acceptance remains a separate check after server reload. For generalization, evaluate a changed parameter set and an unfamiliar drawing without copying the elbow dimensions or feature sequence, and record interventions and drawing acceptance.
 
+For a localized helper repair, run a focused synthetic feature test through that helper (for example, a plate with a hole and a measured C1 entrance), preserving existing documents. Test invalid inputs and non-default parameters when relevant. This does not require the full case-replay sequence below; report the loaded client path and distinguish direct COM from a reloaded MCP call.
+
+For a broad drawing-workflow/generalization change:
+
 1. First pass the known cast-elbow regression from the drawing alone.
 2. Only after that regression passes, test an unfamiliar medium-complexity single-part drawing.
 3. Treat blind testing before the known regression passes as skill-development noise, not normal production modeling.

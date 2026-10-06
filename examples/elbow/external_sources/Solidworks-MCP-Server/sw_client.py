@@ -884,27 +884,22 @@ class SolidWorksClient:
         return {"feature": feat.Name, "radius_mm": radius}
 
     def chamfer(self, distance: float, angle: float = 45.0) -> Dict:
+        if not math.isfinite(distance) or distance <= 0:
+            raise ValueError("Chamfer distance must be positive and finite.")
+        if not math.isfinite(angle) or not 0 < angle < 90:
+            raise ValueError("Chamfer angle must be finite and between 0 and 90 degrees.")
         doc = self._active_doc()
-        # swChamferMethod_eDistDist=0, swChamferMethod_eDistAngle=1
+        # 实体倒角的前两项是选项位和类型；不能套用草图倒角的枚举0。
         feat = doc.FeatureManager.InsertFeatureChamfer(
-            1,            # type: 1=distance-angle
-            0,            # flip dir
-            _m(distance),
-            _r(angle),
-            False, False, False, False
+            0, 1, _m(distance), _r(angle), 0.0, 0.0, 0.0, 0.0,
         )
         if feat is None:
-            # Fallback to equal-distance chamfer
-            feat = doc.FeatureManager.InsertFeatureChamfer(
-                0,           # equal distance
-                0,
-                _m(distance),
-                _r(45.0),
-                False, False, False, False
-            )
-        if feat is None:
-            raise RuntimeError("Chamfer failed. Select edges first.")
-        return {"feature": feat.Name, "distance_mm": distance, "angle_deg": angle}
+            raise RuntimeError("Chamfer failed. Select the intended edges first.")
+        faces = _get(feat, "GetFaces")
+        if faces is None or len(faces) == 0:
+            raise RuntimeError("Chamfer created no faces; preserve the checkpoint and inspect the feature.")
+        return {"feature": feat.Name, "distance_mm": distance,
+                "angle_deg": angle, "generated_faces": len(faces)}
 
     def shell(self, thickness: float, outward: bool = False) -> Dict:
         doc = self._active_doc()
