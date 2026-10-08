@@ -1,6 +1,6 @@
 # SolidWorks Parametric CAD
 
-当前版本：**v1.1.0** · [更新记录](CHANGELOG.md) · [版本发布](https://github.com/panp20469-png/solidworks-parametric-cad-skill/releases)
+当前版本：**v1.2.0** · [更新记录](CHANGELOG.md) · [版本发布](https://github.com/panp20469-png/solidworks-parametric-cad-skill/releases)
 
 面向工程图的 SolidWorks 自动建模实验项目：包括 agent skill、读图与位置关系规则，以及弯头、109 双耳支架、LJT06.06 阀体三个零件的案例资料。
 
@@ -24,7 +24,7 @@
 
 本案例增加了多剖视图、内腔与四个端口、两种端法兰及技术要求的处理。已保存原生模型并完成局部修复，当前状态为 `AWAITING_USER_REVIEW`，不是 `DRAWING_MATCH_PASS`。没有录制建模过程，也未完成修正后脚本的从零重放。详见[案例证据与限制](docs/valve_ljt06_06.md)。
 
-2026-10-06 主分支更新同时修正实体倒角枚举与空特征检测，完善局部验证、外观保留和识图复核规则；见[更新记录](CHANGELOG.md)。
+v1.2.0 同时修正实体倒角枚举与空特征检测，完善局部验证、外观保留和识图复核规则；见[更新记录](CHANGELOG.md)。
 
 ### 第二个案例：109 双耳支架
 
