@@ -1,0 +1,465 @@
+[
+  {
+    "name": "收藏",
+    "type": "FavoriteFolder"
+  },
+  {
+    "name": "历史记录",
+    "type": "HistoryFolder"
+  },
+  {
+    "name": "选择集",
+    "type": "SelectionSetFolder"
+  },
+  {
+    "name": "传感器",
+    "type": "SensorFolder"
+  },
+  {
+    "name": "设计活页夹",
+    "type": "DocsFolder"
+  },
+  {
+    "name": "注解",
+    "type": "DetailCabinet"
+  },
+  {
+    "name": "注释",
+    "type": "NotesAreaFtrFolder"
+  },
+  {
+    "name": "注释区域1",
+    "type": "AnnotationViewFeat"
+  },
+  {
+    "name": "注释1___EndTag___",
+    "type": "FtrFolder"
+  },
+  {
+    "name": "标注",
+    "type": "InkMarkupFolder"
+  },
+  {
+    "name": "光源与相机",
+    "type": "EnvFolder"
+  },
+  {
+    "name": "环境光源",
+    "type": "AmbientLight"
+  },
+  {
+    "name": "线光源 1",
+    "type": "DirectionLight"
+  },
+  {
+    "name": "线光源 2",
+    "type": "DirectionLight"
+  },
+  {
+    "name": "线光源 3",
+    "type": "DirectionLight"
+  },
+  {
+    "name": "线光源 4",
+    "type": "DirectionLight"
+  },
+  {
+    "name": "实体",
+    "type": "SolidBodyFolder"
+  },
+  {
+    "name": "曲面实体",
+    "type": "SurfaceBodyFolder"
+  },
+  {
+    "name": "备注",
+    "type": "CommentsFolder"
+  },
+  {
+    "name": "方程式",
+    "type": "EqnFolder"
+  },
+  {
+    "name": "材质 <未指定>",
+    "type": "MaterialFolder"
+  },
+  {
+    "name": "前视基准面",
+    "type": "RefPlane"
+  },
+  {
+    "name": "上视基准面",
+    "type": "RefPlane"
+  },
+  {
+    "name": "右视基准面",
+    "type": "RefPlane"
+  },
+  {
+    "name": "原点",
+    "type": "OriginProfileFeature"
+  },
+  {
+    "name": "Tables",
+    "type": "ConfigTableFolder"
+  },
+  {
+    "name": "Configuration Table",
+    "type": "NativeConfigurationTableFeature"
+  },
+  {
+    "name": "3D草图1",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "基准面1",
+    "type": "RefPlane"
+  },
+  {
+    "name": "草图1",
+    "type": "ProfileFeature"
+  },
+  {
+    "name": "凸台-拉伸1",
+    "type": "Extrusion"
+  },
+  {
+    "name": "3D草图2",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "基准面2",
+    "type": "RefPlane"
+  },
+  {
+    "name": "草图2",
+    "type": "ProfileFeature"
+  },
+  {
+    "name": "凸台-拉伸2",
+    "type": "ICE"
+  },
+  {
+    "name": "3D草图3",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "基准面3",
+    "type": "RefPlane"
+  },
+  {
+    "name": "草图3",
+    "type": "ProfileFeature"
+  },
+  {
+    "name": "凸台-拉伸3",
+    "type": "ICE"
+  },
+  {
+    "name": "3D草图4",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "基准面4",
+    "type": "RefPlane"
+  },
+  {
+    "name": "草图4",
+    "type": "ProfileFeature"
+  },
+  {
+    "name": "凸台-拉伸4",
+    "type": "ICE"
+  },
+  {
+    "name": "圆角1",
+    "type": "Fillet",
+    "DefaultRadius": 0.003
+  },
+  {
+    "name": "3D草图5",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "基准面5",
+    "type": "RefPlane"
+  },
+  {
+    "name": "草图5",
+    "type": "ProfileFeature"
+  },
+  {
+    "name": "凸台-拉伸5",
+    "type": "ICE"
+  },
+  {
+    "name": "3D草图6",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "基准面6",
+    "type": "RefPlane"
+  },
+  {
+    "name": "草图6",
+    "type": "ProfileFeature"
+  },
+  {
+    "name": "凸台-拉伸6",
+    "type": "ICE"
+  },
+  {
+    "name": "3D草图7",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "基准面7",
+    "type": "RefPlane"
+  },
+  {
+    "name": "草图7",
+    "type": "ProfileFeature"
+  },
+  {
+    "name": "凸台-拉伸7",
+    "type": "ICE"
+  },
+  {
+    "name": "3D草图8",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "基准面8",
+    "type": "RefPlane"
+  },
+  {
+    "name": "草图8",
+    "type": "ProfileFeature"
+  },
+  {
+    "name": "凸台-拉伸8",
+    "type": "ICE"
+  },
+  {
+    "name": "圆角2",
+    "type": "Fillet",
+    "DefaultRadius": 0.003
+  },
+  {
+    "name": "3D草图9",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "基准面9",
+    "type": "RefPlane"
+  },
+  {
+    "name": "草图9",
+    "type": "ProfileFeature"
+  },
+  {
+    "name": "切除-拉伸1",
+    "type": "ICE"
+  },
+  {
+    "name": "3D草图10",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "基准面10",
+    "type": "RefPlane"
+  },
+  {
+    "name": "草图10",
+    "type": "ProfileFeature"
+  },
+  {
+    "name": "切除-拉伸2",
+    "type": "ICE"
+  },
+  {
+    "name": "圆角3",
+    "type": "Fillet",
+    "DefaultRadius": 0.003
+  },
+  {
+    "name": "3D草图11",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "基准面11",
+    "type": "RefPlane"
+  },
+  {
+    "name": "草图11",
+    "type": "ProfileFeature"
+  },
+  {
+    "name": "切除-拉伸3",
+    "type": "ICE"
+  },
+  {
+    "name": "3D草图12",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "基准面12",
+    "type": "RefPlane"
+  },
+  {
+    "name": "草图12",
+    "type": "ProfileFeature"
+  },
+  {
+    "name": "切除-拉伸4",
+    "type": "ICE"
+  },
+  {
+    "name": "装饰螺纹线1",
+    "type": "CosmeticThread",
+    "Diameter": 0.036,
+    "ThreadCallout": "M36-6H",
+    "BlindDepth": 0.015,
+    "EndCondition": 0
+  },
+  {
+    "name": "3D草图13",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "基准面13",
+    "type": "RefPlane"
+  },
+  {
+    "name": "草图13",
+    "type": "ProfileFeature"
+  },
+  {
+    "name": "切除-拉伸5",
+    "type": "ICE"
+  },
+  {
+    "name": "3D草图14",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "基准面14",
+    "type": "RefPlane"
+  },
+  {
+    "name": "草图14",
+    "type": "ProfileFeature"
+  },
+  {
+    "name": "切除-拉伸6",
+    "type": "ICE"
+  },
+  {
+    "name": "3D草图15",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "基准面15",
+    "type": "RefPlane"
+  },
+  {
+    "name": "草图15",
+    "type": "ProfileFeature"
+  },
+  {
+    "name": "切除-拉伸7",
+    "type": "ICE"
+  },
+  {
+    "name": "装饰螺纹线2",
+    "type": "CosmeticThread",
+    "Diameter": 0.008,
+    "ThreadCallout": "M8",
+    "BlindDepth": 0.008,
+    "EndCondition": 0
+  },
+  {
+    "name": "装饰螺纹线3",
+    "type": "CosmeticThread",
+    "Diameter": 0.008,
+    "ThreadCallout": "M8",
+    "BlindDepth": 0.008,
+    "EndCondition": 0
+  },
+  {
+    "name": "3D草图16",
+    "type": "3DProfileFeature"
+  },
+  {
+    "name": "基准面16",
+    "type": "RefPlane"
+  },
+  {
+    "name": "草图16",
+    "type": "ProfileFeature"
+  },
+  {
+    "name": "切除-拉伸8",
+    "type": "ICE"
+  },
+  {
+    "name": "装饰螺纹线4",
+    "type": "CosmeticThread",
+    "Diameter": 0.008,
+    "ThreadCallout": "M8",
+    "BlindDepth": 0.008,
+    "EndCondition": 0
+  },
+  {
+    "name": "装饰螺纹线5",
+    "type": "CosmeticThread",
+    "Diameter": 0.008,
+    "ThreadCallout": "M8",
+    "BlindDepth": 0.008,
+    "EndCondition": 0
+  },
+  {
+    "name": "装饰螺纹线6",
+    "type": "CosmeticThread",
+    "Diameter": 0.008,
+    "ThreadCallout": "M8",
+    "BlindDepth": 0.008,
+    "EndCondition": 0
+  },
+  {
+    "name": "装饰螺纹线7",
+    "type": "CosmeticThread",
+    "Diameter": 0.008,
+    "ThreadCallout": "M8",
+    "BlindDepth": 0.008,
+    "EndCondition": 0
+  },
+  {
+    "name": "倒角1",
+    "type": "Chamfer"
+  },
+  {
+    "name": "圆角4",
+    "type": "Fillet",
+    "DefaultRadius": 0.003
+  },
+  {
+    "name": "圆角5",
+    "type": "Fillet",
+    "DefaultRadius": 0.003
+  },
+  {
+    "name": "圆角6",
+    "type": "Fillet",
+    "DefaultRadius": 0.003
+  },
+  {
+    "name": "圆角7",
+    "type": "Fillet",
+    "DefaultRadius": 0.003
+  },
+  {
+    "name": "倒角2",
+    "type": "Chamfer"
+  }
+]

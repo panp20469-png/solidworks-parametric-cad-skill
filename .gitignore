@@ -17,3 +17,5 @@ output/
 !docs/demo/drawing109/*.SLDPRT
 
 !docs/demo/valve_ljt06_06/*.SLDPRT
+
+!docs/demo/valve_ljt06_06/*.mp4

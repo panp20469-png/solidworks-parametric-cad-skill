@@ -1,0 +1,28 @@
+{
+  "error": null,
+  "recording_error": null,
+  "frames": 3728,
+  "fps": 10,
+  "encoding_exit_code": 0,
+  "wall_seconds": 374.05,
+  "entry_sha256": "c7a4be6817b2d7c37dd97a40ab93020b60bea5088de3c70d36fe9f0481848bde",
+  "capture": "Continuous capture of SolidWorks window; wrapper adds view refresh and stage pauses only.",
+  "from_zero_replay": "PASS",
+  "completed_groups": 26,
+  "model_sha256": "65906e6b067dd45bae331290aaead2a744dd938113620f381f92a26cf50a5e85",
+  "raw_duration_seconds": 372.8,
+  "published_speed": 2,
+  "published_duration_seconds": 186.4,
+  "video_sha256": "485d5b03a097f0ea6ffec7df9ae16af854d7c3a569b25243d328472aff7bb66a",
+  "raw_video_sha256": "8ae6939dd7e5de83e6441b09dba8245cd37a7fdf97d455acedfb80b8794e8c76",
+  "decode_check": "PASS",
+  "visual_frame_check": "Blank part, active intermediate modeling, and completed saved model reviewed",
+  "interventions_during_final_run": 0,
+  "source_hashes": {
+    "build.py": "c7a4be6817b2d7c37dd97a40ab93020b60bea5088de3c70d36fe9f0481848bde",
+    "finish_edges.py": "5058ecad6ef259f7cc45347dd5aa80d7abb593f58f9a65b400de48ce6136a572",
+    "final_check.py": "2b2aa3dace0d486b84b8895c01961df7e2957f61fa6c5b6d7f1b8080fe8fbf88",
+    "contract.json": "89f61bc730851eb0467c453e4201dc37f28a837da19eb810a4f49488c074a1ee"
+  },
+  "previous_run": "首次重放后，独立验收发现法兰背面R3及加工外缘C1缺项；修复纳入入口后重新从零录制。发布视频为最终完整运行，无模型操作剪辑。"
+}

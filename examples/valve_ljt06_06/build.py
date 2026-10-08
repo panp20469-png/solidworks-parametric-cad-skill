@@ -8,6 +8,7 @@ import time
 import traceback
 
 HERE = Path(__file__).resolve().parent
+sys.path.insert(0,str(HERE))
 LIB = HERE.parent / 'elbow/elbow_clean_rebuild'
 sys.path.insert(0, str(LIB))
 import build_elbow_v10_spec as b
@@ -288,6 +289,9 @@ try:
     group('18',lambda:feature(sum([circle(EI,c) for c in DX],[]),(X,-PH+FT/2,Z),(1,0,0),(0,0,1),FT,mid=True,cut=True))
     group('19_threads',threads)
     group('20_chamfers',chamfers)
+    import finish_edges
+    for number,mode in enumerate(('c-root','d-root','d-back','c-back','machined_perimeters'),21):
+        group(str(number),lambda mode=mode:finish_edges.apply(sw,C['dimensions'],mode))
     sw.set_custom_property('DrawingMaterial',C['metadata']['material'])
     sw.set_custom_property('ThreadRepresentation',C['metadata']['thread_representation'])
     sw.set_custom_property('DrawingNumber',C['part_id'])

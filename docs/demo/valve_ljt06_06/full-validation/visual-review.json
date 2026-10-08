@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-08",
+  "mode": "full_drawing_match",
+  "model_sha256": "65906e6b067dd45bae331290aaead2a744dd938113620f381f92a26cf50a5e85",
+  "reviewer": "AI agent visual comparison with original drawing",
+  "status": "DRAWING_MATCH_PASS",
+  "scope": "名义几何的AI辅助自检，不是用户人工验收或工程认证；剖面为SolidWorks实时非破坏图形剖切。装饰螺纹的虚线投影可能在局部剖视范围外保留，不是额外实体。",
+  "views": [
+    {
+      "name": "front",
+      "sha256": "7881bd2fc4ec2ebe6b5166f62368ab4a4f9a5fbb8140da56f1679620a5c5089a",
+      "status": "PASS",
+      "note": "沿-Y观察，左端D法兰、主体台阶、下颈及底板相对位置一致；外部轮廓与A-A外形对应。"
+    },
+    {
+      "name": "top",
+      "sha256": "b0f998112419052a946947ec1fdfef5e63c54633c2b146d137da4cd937e7f0eb",
+      "status": "PASS",
+      "note": "主体外圆与上口同轴，左右连接颈直径不同，底板四角和孔阵列按投影关系分布，与原图俯视一致。"
+    },
+    {
+      "name": "C",
+      "sha256": "99acf9667970cb48b6c83dd145e0a29dbc12a7d8adfb9565ec4f277e695caa32",
+      "status": "PASS",
+      "note": "从C端观察，前方两耳法兰与后方D端四耳法兰分离；两端共用横孔轴线。"
+    },
+    {
+      "name": "B_outer",
+      "sha256": "f566d9e16e81269cd22ddcbf0fdcb91d28205f40e6a160a4e00b053a2e3b4555",
+      "status": "PASS",
+      "note": "横向外形，两端法兰厚度及颈部台阶、上下主体和底颈位置符合B-B外轮廓；该图观察方向与B-B剖视相反。"
+    },
+    {
+      "name": "isometric",
+      "sha256": "102264c5e2c18b694811011f162fb31d1f2f85d29d93cde3a31fb57baba1c107",
+      "status": "PASS",
+      "note": "上下口、两横向端口、安装板和两种法兰连成单一铸件；补齐的R3及C1位置可辨。"
+    },
+    {
+      "name": "A_A",
+      "sha256": "02894eea473861e28925fb820558b3720eac521cbf69b788dad3952c9d93bed2",
+      "status": "PASS",
+      "note": "Y=0纵剖：上口、下口接入主腔；左端圆弧腔与横孔同心；主腔顶65、底39、左侧局部低至35，与26高非对称腔相符。"
+    },
+    {
+      "name": "B_B",
+      "sha256": "dc5c40ea6db922fd17653b80d64aec2b28868771541a85fcbc8503c61e83f184",
+      "status": "PASS",
+      "note": "X=-50横剖：C端在左、D端在右；两侧16孔接入腔，内腔圆角、较低局部腔底、两端颈和法兰背面的圆滑过渡均与原图对应。"
+    },
+    {
+      "name": "C_local",
+      "sha256": "eeeb61ec48f2be9ec6decc99e50876c5bb0ed7b75bbd1ee019e738c70dc9a4c5",
+      "status": "PASS",
+      "note": "仅保留C端法兰局部：两耳轮廓、两螺纹孔与中央通孔的相对位置及对称关系符合C向；外围C1体现未注倒角要求。"
+    },
+    {
+      "name": "D_local",
+      "sha256": "ae02aec576d894a86764333c6b4ad05ffee98aa634938193027d44e772860b05",
+      "status": "PASS",
+      "note": "仅保留D端法兰局部：四耳与四孔同心，45度分布在直径50圆上，外轮廓和耳间过渡对应D向。"
+    },
+    {
+      "name": "top_section",
+      "sha256": "57a32f7a1ff1b63e006ca94c8df2a230a6786309b90125c21c510d616532a38e",
+      "status": "PASS",
+      "note": "Z=50俯剖：主腔右端R20和左端通道连续，下孔在主腔内开口，两横向孔与主腔接合；与原图局部俯剖对应。"
+    }
+  ]
+}

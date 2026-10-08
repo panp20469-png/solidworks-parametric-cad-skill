@@ -2,7 +2,7 @@
 name: solidworks-parametric-cad
 description: Create and automate SolidWorks CAD from drawings, PDFs, sketches, dimension tables, or mechanical requirements, including drawing gates, COM/MCP/VBScript automation, SLDPRT/SLDASM/STEP export, debugging, and validation.
 metadata:
-  version: "1.2.0"
+  version: "1.2.1"
 ---
 
 # SolidWorks Parametric CAD

@@ -1,0 +1,416 @@
+{
+  "model_sha256": "65906e6b067dd45bae331290aaead2a744dd938113620f381f92a26cf50a5e85",
+  "model_unchanged": true,
+  "views": [
+    {
+      "name": "front",
+      "camera_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "requested_normal": [
+        0,
+        -1,
+        0
+      ],
+      "section": null,
+      "path": "front.png",
+      "sha256": "7881bd2fc4ec2ebe6b5166f62368ab4a4f9a5fbb8140da56f1679620a5c5089a"
+    },
+    {
+      "name": "top",
+      "camera_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "requested_normal": [
+        0,
+        0,
+        1
+      ],
+      "section": null,
+      "path": "top.png",
+      "sha256": "b0f998112419052a946947ec1fdfef5e63c54633c2b146d137da4cd937e7f0eb"
+    },
+    {
+      "name": "C",
+      "camera_matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "requested_normal": [
+        0,
+        1,
+        0
+      ],
+      "section": null,
+      "path": "C.png",
+      "sha256": "99acf9667970cb48b6c83dd145e0a29dbc12a7d8adfb9565ec4f277e695caa32"
+    },
+    {
+      "name": "B_outer",
+      "camera_matrix": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "requested_normal": [
+        1,
+        0,
+        0
+      ],
+      "section": null,
+      "path": "B_outer.png",
+      "sha256": "f566d9e16e81269cd22ddcbf0fdcb91d28205f40e6a160a4e00b053a2e3b4555"
+    },
+    {
+      "name": "isometric",
+      "camera_matrix": [
+        0.7071067811865475,
+        -0.4082482904638631,
+        0.5773502691896258,
+        0.7071067811865475,
+        0.4082482904638631,
+        -0.5773502691896258,
+        0.0,
+        0.8164965809277261,
+        0.5773502691896258,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "requested_normal": [
+        0.5773502691896258,
+        -0.5773502691896258,
+        0.5773502691896258
+      ],
+      "section": null,
+      "path": "isometric.png",
+      "sha256": "102264c5e2c18b694811011f162fb31d1f2f85d29d93cde3a31fb57baba1c107"
+    },
+    {
+      "name": "A_A",
+      "camera_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "requested_normal": [
+        0,
+        -1,
+        0
+      ],
+      "section": {
+        "plane": "\u4e0a\u89c6\u57fa\u51c6\u9762",
+        "offset_mm": 0.0,
+        "reverse": true,
+        "created": true,
+        "graphics_only": true,
+        "plane_transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "path": "A_A.png",
+      "sha256": "02894eea473861e28925fb820558b3720eac521cbf69b788dad3952c9d93bed2"
+    },
+    {
+      "name": "B_B",
+      "camera_matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "requested_normal": [
+        -1,
+        0,
+        0
+      ],
+      "section": {
+        "plane": "\u53f3\u89c6\u57fa\u51c6\u9762",
+        "offset_mm": -50.0,
+        "reverse": true,
+        "created": true,
+        "graphics_only": true,
+        "plane_transform": [
+          -0.0,
+          -0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "path": "B_B.png",
+      "sha256": "dc5c40ea6db922fd17653b80d64aec2b28868771541a85fcbc8503c61e83f184"
+    },
+    {
+      "name": "C_local",
+      "camera_matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "requested_normal": [
+        0,
+        1,
+        0
+      ],
+      "section": {
+        "plane": "\u4e0a\u89c6\u57fa\u51c6\u9762",
+        "offset_mm": 39.0,
+        "reverse": true,
+        "created": true,
+        "graphics_only": true,
+        "plane_transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "path": "C_local.png",
+      "sha256": "eeeb61ec48f2be9ec6decc99e50876c5bb0ed7b75bbd1ee019e738c70dc9a4c5"
+    },
+    {
+      "name": "D_local",
+      "camera_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "requested_normal": [
+        0,
+        -1,
+        0
+      ],
+      "section": {
+        "plane": "\u4e0a\u89c6\u57fa\u51c6\u9762",
+        "offset_mm": -39.0,
+        "reverse": false,
+        "created": true,
+        "graphics_only": true,
+        "plane_transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "path": "D_local.png",
+      "sha256": "ae02aec576d894a86764333c6b4ad05ffee98aa634938193027d44e772860b05"
+    },
+    {
+      "name": "top_section",
+      "camera_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "requested_normal": [
+        0,
+        0,
+        1
+      ],
+      "section": {
+        "plane": "\u524d\u89c6\u57fa\u51c6\u9762",
+        "offset_mm": 50.0,
+        "reverse": false,
+        "created": true,
+        "graphics_only": true,
+        "plane_transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "path": "top_section.png",
+      "sha256": "57a32f7a1ff1b63e006ca94c8df2a230a6786309b90125c21c510d616532a38e"
+    }
+  ]
+}
